@@ -1,0 +1,837 @@
+ISIN,assetName,assetShortName,assetCategory,assetSubCategory,marketID,sector,industry,timestamp
+GRF000011004,DHLOS PET OTE,DELPOIB,MTF,Balanced,AEDAK,,,2018-01-02
+GRF000014008,DELOS FIXED INCOME PLUS - BOND FUND,DELDBDF,MTF,Structured,AEDAK,,,2018-01-02
+GRF000022001,ΔΗΛΟΣ ΒΡΑΧΥΠΡΟΘΕΣΜΩΝ & ΜΕΣΟΠΡΟΘΕΣΜΩΝ ΕΠΕΝΔΥΣΕΩΝ-ΟΜ,DELPIMM,MTF,Money Market,AEDAK,,,2018-01-02
+GRF000023009,DHLOS EISODHMATOS OMOLOGIAKO ESOTERIKOY,DELFXIB,MTF,Bond,AEDAK,,,2018-01-02
+GRF000024007,DHLOS EUROBOND,DELEURB,MTF,Bond,AEDAK,,,2018-01-02
+GRF000025004,DELUBFB Delos USD Bond Fund,DELUBFB,MTF,Bond,AEDAK,,,2018-01-02
+GRF000029006,DELSBBF Delos Synthesis Best Blue - Bond Fund of F,DELSBBF,MTF,Bond,AEDAK,,,2018-01-02
+GRF000030004,DELOS USD-INTERNATIONAL BD,DELIBMF,MTF,Bond,AEDAK,,,2018-01-02
+GRF000031002,DHLOS MIKTO AMOIVAIO KEFALAIO,DELDMBL,MTF,Balanced,AEDAK,,,2018-01-02
+GRF000032000,DHLOS STRATEGIC INVESTMENTS,DELSIBF,MTF,Balanced,AEDAK,,,2018-01-02
+GRF000034006,DELOS UNION FUND-BALANCED FD,DELSYDB GA,MTF,Balanced,AEDAK,,,2018-01-02
+GRF000036001,A/K  DHLOS SYNTHESIS BEST YELLOW FUNDS OF FUND ΜΙΚ,DELSBYF,MTF,Balanced,AEDAK,,,2018-01-02
+GRF000037009,DHLOS BLUE CHIPS,DELBCDE,MTF,Equity,AEDAK,,,2018-01-02
+GRF000038007,DHLOS SMALL CAP,DELSCDE,MTF,Equity,AEDAK,,,2018-01-02
+GRF000045002,DHLOS SYNTHESIS BEST FUND OF FUNDS ΜΕΤΟΧΙΚΟ,DELSBRE,MTF,Money Market,AEDAK,,,2018-01-02
+GRF000084001,N.P.INSURANCE ΝΕΟΣ ΠΟΣΕΙΔΩΝ ΜΙΚΤΟ,NPINSMIK,MTF,Balanced,AEDAK,,,2018-01-02
+GRF000093002,DELOS GREEK GROW-DOMEST BOND,DELGRGR,MTF,Bond,AEDAK,,,2018-01-02
+GRF000394004,DELOS EXTRA INCOME 5year-Bond Fund,,MTF,Bond,AEDAK,,,2022-10-31
+IE00B1FZS681,iShares € Govt Bond 3-5yr UCITS ETF EUR (Dist) | IBGX,UNK_448,MTF,Bond,ALXA,,,2018-01-02
+NL0010273215,ASML Holding NV,UNK_753,Stock,,ALXA,Technology,Semiconductor Equipment & Materials,2018-01-02
+BE0974271034,VIOHALCO SA,VIO,Stock,,ALXB,Industrials,Metal Fabrication,2018-01-02
+BE0974293251,Anheuser-Busch InBev SA/NV,UNK_15,Stock,,ALXB,Consumer Defensive,Beverages - Brewers,2018-01-02
+FR0000121014,LVMH Moet Hennessy Louis Vuitton SE,MOH,Stock,,ALXP,Consumer Cyclical,Luxury Goods,2018-01-02
+FR0000121501,Peugeot S.A.,UG,Stock,,ALXP,,,2018-01-02
+FR0000125007,Compagnie de Saint-Gobain SA,UNK_96,Stock,,ALXP,Industrials,Building Products & Equipment,2018-01-02
+FR0000131104,BNP Paribas,UNK_98,Stock,,ALXP,Financial Services,Banks - Regional,2018-01-02
+FR0000131906,Renault SA,UNK_99,Stock,,ALXP,Consumer Cyclical,Auto Manufacturers,2018-01-02
+FR0000133308,Orange SA,UNK_100,Stock,,ALXP,Communication Services,Telecom Services,2018-01-02
+FR0007054358,Lyxor Euro Stoxx 50 (DR) UCITS ETF Acc | MSE,UNK_101,MTF,Equity,ALXP,,,2018-01-02
+FR0010315770,Lyxor MSCI World UCITS ETF Dist | WLD,UNK_102,MTF,Equity,ALXP,,,2018-01-02
+FR0010510800,Lyxor Euro Overnight Return UCITS ETF Acc | CSH,UNK_107,MTF,Money Market,ALXP,,,2018-01-02
+FR0011993179,France,UNK_110,Bond,Government,ALXP,Sovereign,,2018-01-01
+LU0006061385,BlackRock Global Funds - Global Government Bond Fund A2 USD,UNK_515,MTF,Bond,CCLX,,,2020-02-03
+LU0006061419,MIGSDRI BlackRock Global Funds - US Dollar Reserve,MIGSDRI,MTF,Bond,CCLX,,,2018-01-02
+LU0006277684,UBSMUSI UBS Lux Money Market Fund - USD,UBSMUSI,MTF,Bond,CCLX,,,2018-01-02
+LU0006344922,UBSMECI UBS Lux Money Market Fund - EUR,UBSMECI,MTF,Bond,CCLX,,,2018-01-02
+LU0006391097,UBS (Lux) Equity Fund - European Opportunity Sustainable (EUR) P-acc,UNK_518,MTF,Equity,CCLX,,,2018-01-02
+LU0011850392,BlackRock Global Funds - Emerging Europe Fund A2,UNK_519,MTF,Equity,CCLX,,,2018-01-02
+LU0012186622,BNP Paribas Funds USD Money Market Classic C,UNK_521,MTF,Money Market,CCLX,,,2018-01-02
+LU0033040600,UBS (Lux) Strategy Fund - Yield Sustainable (EUR) P-dist,UNK_522,MTF,Other,CCLX,,,2018-01-02
+LU0033043885,SBCUYBI UBS Lux Strategy Fund - Yield USD,SBCUYBI,MTF,Bond,CCLX,,,2018-01-02
+LU0033050237,UBS (Lux) Bond Fund - EUR Flexible P-acc,UNK_526,MTF,Bond,CCLX,,,2018-01-02
+LU0047713382,BlackRock Global Funds - Emerging Markets Fund A2,UNK_528,MTF,Equity,CCLX,,,2018-01-02
+LU0049785446,UBS (Lux) Strategy Fund - Balanced Sustainable (EUR) P-acc,UNK_529,MTF,Other,CCLX,,,2018-01-02
+LU0049785792,UBS (Lux) Strategy Fund - Balanced Sustainable (USD) P-acc,UNK_530,MTF,Other,CCLX,,,2018-01-02
+LU0050372472,MIGSEBI BlackRock Global Funds - Euro Bond Fund,MIGSEBI,MTF,Equity,CCLX,,,2018-01-02
+LU0053903380,Schroder International Selection Fund Global Corporate Bond A Distribution USD MV,UNK_532,MTF,Bond,CCLX,,,2018-01-02
+LU0055631609,BlackRock Global Funds - World Gold Fund A2,GOLD,Stock,,CCLX,Sector Equity Precious Metals,,2018-01-02
+LU0055631609,BlackRock Global Funds - World Gold Fund A2,GOLD,MTF,Equity,CCLX,,,2018-01-02
+LU0072462186,BlackRock Global Funds - European Value Fund A2,UNK_535,MTF,Equity,CCLX,,,2018-01-02
+LU0072462426,BlackRock Global Funds - Global Allocation Fund A2,UNK_536,MTF,Other,CCLX,,,2018-01-02
+LU0083138064,PARSTCA Parvest Money Market Euro,PARSTCA,MTF,Bond,CCLX,,,2018-01-02
+LU0085995990,UBS (Lux) Bond Fund - Euro High Yield (EUR) P-dist,UNK_540,MTF,Bond,CCLX,,,2018-01-02
+LU0086177085,UBS (Lux) Bond Fund - Euro High Yield (EUR) P-acc,UNK_541,MTF,Bond,CCLX,,,2018-01-02
+LU0093503497,BlackRock Global Funds - ESG Multi-Asset Fund A2 EUR,UNK_546,MTF,Other,CCLX,,,2018-01-02
+LU0093503810,BlackRock Global Funds - Euro Short Duration Bond Fund A2 EUR,UNK_547,MTF,Bond,CCLX,,,2018-01-02
+LU0106234643,Schroder International Selection Fund EURO Short Term Bond A Accumulation EUR,UNK_551,MTF,Bond,CCLX,,,2018-01-02
+LU0106258311,Schroder International Selection Fund Global Corporate Bond A Accumulation USD,UNK_554,MTF,Bond,CCLX,,,2018-01-02
+LU0113257694,Schroder International Selection Fund EURO Corporate Bond A Accumulation EUR,UNK_556,MTF,Bond,CCLX,,,2018-01-02
+LU0128497889,Pictet-Short-Term Money Market USD R,UNK_563,MTF,Money Market,CCLX,,,2018-01-02
+LU0130799603,UBS Lux Equity Fund - Global Sustainable Innovators,UNK_1035,MTF,Equity,CCLX,,,2018-01-02
+LU0162658883,BlackRock Global Funds - Euro Corporate Bond Fund A2,UNK_572,MTF,Bond,CCLX,,,2018-01-02
+LU0165915058,Allianz Global Investors Fund - Allianz Euro Bond AT EUR,UNK_579,MTF,Bond,CCLX,,,2018-01-02
+LU0167160653,PICTET-EUR SHORT MT BDS-R INC,PIFESMR,MTF,Bond,CCLX,,,2018-01-02
+LU0167236651,BNP Paribas InstiCash GBP 1d Short Term VNAV,UNK_1038,MTF,Other,CCLX,,,2018-01-02
+LU0167237543,BNPICMC BNP Paribas InstiCash EUR,BNPICMC,MTF,Bond,CCLX,,,2018-01-02
+LU0167238863,BNPIMUC BNP Paribas InstiCash USD,BNPIMUC,MTF,Bond,CCLX,,,2018-01-02
+LU0171275786,BGF Emerging Markets Fund A2 EUR,MIGSEII,MTF,Equity,CCLX,,,2018-01-02
+LU0171283459,BlackRock Global Funds - Global Allocation Fund A2 (EUR),UNK_588,MTF,Other,CCLX,,,2018-01-02
+LU0171304719,BlackRock Global Funds - World Financials Fund A2 (EUR),UNK_591,MTF,Equity,CCLX,,,2018-01-02
+LU0171305526,BlackRock Global Funds - World Gold Fund A2 (EUR),UNK_592,MTF,Equity,CCLX,,,2018-01-02
+LU0171307068,BlackRock Global Funds - World Healthscience Fund A2 (EUR),UNK_593,MTF,Equity,CCLX,,,2018-01-02
+LU0171310443,BGF World Technology Fund A2 EUR,MWOTEEA,MTF,Equity,CCLX,,,2018-01-02
+LU0172394222,BlackRock Global Funds - Euro Corporate Bond Fund A3 EUR,UNK_596,MTF,Bond,CCLX,,,2018-01-02
+LU0172396516,BlackRock Global Funds - Euro Bond Fund A3,UNK_597,MTF,Bond,CCLX,,,2018-01-02
+LU0184696937,BlackRock Global Funds - Sustainable World Bond Fund A2 USD,UNK_601,MTF,Bond,CCLX,,,2018-01-02
+LU0204480833,Allianz Asia-Pacific Equity A EUR Dis,UNK_1039,MTF,Equity,CCLX,,,2018-01-02
+LU0212175227,BNP Paribas Funds EURO Short Term Bond Opportunities Classic Capitalisation,UNK_1040,MTF,Bond,CCLX,,,2018-01-02
+LU0212925753,MGHMLA2 BlackRock Global Funds - Global Allocation,MGHMLA2,MTF,Bond,CCLX,,,2018-01-02
+LU0243957825,Invesco Funds SICAV - Invesco Euro Corporate Bond Fund A Accumulation EUR,UNK_612,MTF,Bond,CCLX,,,2018-01-02
+LU0248271941,BlackRock Global Funds - India Fund A2 (EUR),UNK_614,MTF,Equity,CCLX,,,2018-01-02
+LU0265268689,BNP Paribas Funds Equity Russia Opportunities Classic Capitalisation USD,UNK_1042,MTF,Equity,CCLX,,,2018-01-03
+LU0325598166,BNP Paribas Funds Enhanced Bd 6M Classic Capitalisation,UNK_633,MTF,Bond,CCLX,,,2018-01-02
+LU0391944815,Pictet-Global Megatrend Selection R EUR,UNK_639,MTF,Equity,CCLX,,,2018-01-02
+LU0432365988,BGF Euro Reserve Fund A2 EUR,BLRERA2,MTF,Bond,CCLX,,,2018-01-02
+LU0432616737,Invesco Funds SICAV - Invesco Balanced-Risk Allocation Fund A Accumulation EUR,UNK_647,MTF,Other,CCLX,,,2018-01-02
+LU0482498762,Invesco Funds SICAV - Invesco Balanced-Risk Allocation Fund A (USD Hedged) Accumulation USD,UNK_656,MTF,Other,CCLX,,,2018-01-02
+LU0494093205,BlackRock Global Funds - ESG Multi-Asset Fund A2 USD Hedged,UNK_657,MTF,Other,CCLX,,,2018-01-02
+LU0503635624,Pictet - SmartCity R dy USD,UNK_660,MTF,Equity,CCLX,,,2018-01-02
+LU0545039389,BlackRock Global Funds - Global Equity Income Fund A2,UNK_662,MTF,Equity,CCLX,,,2018-01-02
+LU0561744862,BlackRock Global Funds - European Equity Income Fund A5G EUR,UNK_665,MTF,Equity,CCLX,,,2018-01-02
+LU0562822386,BlackRock Global Funds - European Equity Income Fund A2,UNK_666,MTF,Equity,CCLX,,,2018-01-02
+LU0736302315,Pictet-EUR Short Term High Yield HR USD,UNK_675,MTF,Bond,CCLX,,,2018-01-02
+LU0757360960,Schroder International Selection Fund Global Multi-Asset Income A Distribution EUR Hedged QV,AHI,MTF,Other,CCLX,,,2018-01-02
+LU0776413196,Schroder International Selection Fund Sustainable Conservative A Accumulation EUR,UNK_678,MTF,Other,CCLX,,,2018-01-02
+LU0823427611,BNP Paribas Equity Germany NOK 2,UNK_1055,MTF,Equity,CCLX,,,2018-01-02
+LU0823431720,BNP Paribas Funds Russia Equity Classic Capitalisation,UNK_692,MTF,Equity,CCLX,,,2018-01-03
+LU0823449425,BNP Paribas Funds Commodities Classic H EUR Capitalisation,UNK_1057,MTF,Other,CCLX,,,2018-01-02
+LU0830747522,Amundi Funds II - Global Equity Target Income A USD Class D,UNK_1058,MTF,Equity,CCLX,,,2018-01-02
+LU0953782009,European Investment Bank (EIB),UNK_701,Bond,Corporate,CCLX,Corporate,Banks,2018-01-02
+LU0955662357,Schroder International Selection Fund Asian Dividend Maximiser A Accumulation EUR,UNK_704,MTF,Equity,CCLX,,,2018-01-02
+LU1081987536,UBS Lux Equity SICAV Emerging Markets High Dividend EUR Hedged P-acc,UNK_1060,MTF,Equity,CCLX,,,2018-01-02
+XS1085735899,Portugal,UNK_928,Bond,Government,CCLX,Sovereign,,2018-11-16
+CY0109232112,CAIRO MEZZ PLC,ΚΑΙΡΟΜΕΖ,Stock,,ENAX,Financial Services,Capital Markets,2020-09-29
+CY0109561015,PHOENIX VEGA MEZZ PLC (CR),ΦΒΜΕΖΖ,Stock,,ENAX,Financial Services,Asset Management,2021-08-12
+CY0200222111,SUNRISEMEZZ PLC,ΣΑΝΜΕΖΖ,Stock,,ENAX,Financial Services,Credit Services,2022-10-31
+CY0200252118,GALAXY COSMOS MEZZ PLC,ΓΚΜΕΖΖ,Stock,,ENAX,Financial Services,Asset Management,2022-10-31
+GRC422116743,"MLS MULTIMEDIA SA BOND MLSGA 5,30 07/11/20",ΜΛΣΟ1,Bond,Corporate,ENAX,Corporate,IT Services and Computer Programming,2018-01-02
+GRC4221178B3,"MLS INNOVATION INC 5,30 08/31/22",ΜΛΣΟ2,Bond,Corporate,ENAX,Corporate,IT Services and Computer Programming,2018-01-02
+GRC4221197B3,MLS MULTIMEDIA S.A. MLSB3 4.30 25/07/24,ΜΛΣΟ3,Bond,Corporate,ENAX,Corporate,IT Services and Computer Programming,2019-08-02
+GRC815117CD9,DELTA TECHNIKI S.A,ΔΕΛΤΕΧΟ1,Bond,Corporate,ENAX,Corporate,Miscellaneous Construction,2018-02-02
+GRS498003003,EPSILON NET S.A. (CR),ΕΠΣΙΛ,Stock,,ENAX,Technology,Software - Application,2018-01-02
+GRS500003009,MEDITERRA S.A. (CR),ΜΑΣΟΠ,Stock,,ENAX,Consumer Defensive,Household & Personal Products,2018-01-02
+GRS501003008,EUROXX SECURITIES SA,ΕΧ,Stock,,ENAX,Financial Services,Financial Data & Stock Exchanges,2018-01-02
+GRS502003007,DOPPLER S.A. (CR),ΝΤΟΠΛΕΡ,Stock,,ENAX,Industrials,Specialty Industrial Machinery,2018-01-02
+GRS504003021,ALPHA TRUST MUTUAL FUND AND ALTERNATIVE INVESTMENT,ΑΤΡΑΣΤ,Stock,,ENAX,Financial Services,Asset Management,2018-01-02
+GRS505003004,PERFORMANCE TECHN/GIES Α.Ε.-ΚΟ,ΠΕΡΦ,Stock,,ENAX,Technology,Information Technology Services,2018-01-02
+GRS506003003,OPTRONICS TECHNOLOGIES S.A. (CR),ΟΠΤΡΟΝ,Stock,,ENAX,Technology,Communication Equipment,2018-01-02
+GRS507003002,KRITON ARTOS SA,ΚΡΗΤΩΝ,Stock,,ENAX,,,2018-01-02
+GRS510003015,FOODLINK S.A. (SR),ΦΟΥΝΤΛ,Stock,,ENAX,Industrials,Integrated Freight & Logistics,2018-01-02
+GRS511003006,VIDAVO S.A.,ΒΙΝΤΑ,Stock,,ENAX,Healthcare,Health Information Services,2018-01-02
+GRS512003005,DIVERSA COMMERCIAL IMPORTS TECH SERVICES S.A.,ΟΡΑΟΡΑ,Stock,,ENAX,,,2018-01-02
+GRS522003003,REAL CONSULTING IT BUSINESS SOLUTIONS SA,REALCONS,Stock,,ENAX,Technology,Information Technology Services,2021-08-06
+PTOTEQOE0015,Portugal,UNK_756,Bond,Government,ENXL,Sovereign,,2019-04-12
+GR0114031561,"HELLENIC REPUBLIC GGB 3,45 04/02/24","GGB 3,45 04/02/24",Bond,Government,HDAT,Sovereign,,2019-01-30
+GR0114032577,Greece,UNK_126,Bond,Government,HDAT,Sovereign,,2021-05-12
+GR0118019679,"HELLENIC REPUBLIC GGB 1,875 23/07/26","GGB 1,875 23/07/26",Bond,Government,HDAT,Sovereign,,2019-07-23
+GR0118020685,HELLENIC REPUBLIC  BONDS GGB 2 04/22/27,GGB 2 04/22/27,Bond,Government,HDAT,Sovereign,,2020-04-15
+GR0124035693,"HellenicRep.Gov.Bond GGB 3,875 03/12/29","GGB 3,875 03/12/29",Bond,Government,HDAT,Sovereign,,2019-03-05
+GR0124036709,"HELLENIC REPUBLIC GGB 1,50 06/18/30","GGB 1,50 06/18/30",Bond,Government,HDAT,Sovereign,,2020-06-09
+GR0124037715,"HELLENIC REPUBLIC GGB 0,75 06/18/31","GGB 0,75 06/18/31",Bond,Government,HDAT,Sovereign,,2021-02-05
+GR0124038721,"HELLENIC REPUBLIC GGB 1,75 06/18/32","GGB 1,75 06/18/32",Bond,Government,HDAT,Sovereign,,2022-01-20
+GR0128016731,"GGB 1,875 02/04/35 HellenicRep.Gov.Bond","GGB 1,875 02/04/35",Bond,Government,HDAT,Sovereign,,2020-02-03
+GR0138017836,"HELLENIC REPUBLIC GGB 1,875 01/24/52","GGB 1,875 01/24/52",Bond,Government,HDAT,Sovereign,,2021-03-17
+GR0514024216,HELLENIC REPUBLIC GGB FLOAT 12/15/27,GGB FLOAT 12/15/27,Bond,Government,HDAT,Sovereign,,2022-07-25
+IE00BKWD3966,Invesco Euro Corporate Hybrid Bond UCITS ETF Inc | EHBD,UNK_481,MTF,Bond,MTAA,,,2021-07-09
+IE00BYM11K57,UBS (Irl) Fund Solutions plc - MSCI ACWI SF UCITS ETF (hedged to EUR) A-acc | ACWIE,UNK_494,MTF,Equity,MTAA,,,2018-01-02
+IT0000366655,Italy,UNK_501,Bond,Government,MTAA,Sovereign,,2022-03-30
+IT0005030504,Italy,UNK_502,Bond,Government,MTAA,Sovereign,,2018-01-01
+IT0005239360,UniCredit SpA,UNK_504,Stock,,MTAA,Financial Services,Banks - Regional,2018-01-02
+IT0005252520,Italy,UNK_505,Bond,Government,MTAA,Sovereign,,2018-11-07
+IT0005277444,Italy,UNK_506,Bond,Government,MTAA,Sovereign,,2018-01-01
+IT0005344335,Italy,UNK_510,Bond,Government,MTAA,Sovereign,,2018-12-21
+IT0005402117,Italy,UNK_511,Bond,Government,MTAA,Sovereign,,2020-02-13
+IT0005482309,Italy,UNK_512,Bond,Government,MTAA,Sovereign,,2022-03-30
+PTOTESOE0013,Portugal,UNK_757,Bond,Government,PORT,Sovereign,,2018-12-28
+MHY1771G1364,Costamare Inc,UNK_751,Stock,,OOTC,Industrials,Marine Shipping,2018-01-02
+US00206REJ77,AT&T Inc,UNK_760,Bond,Corporate,OOTC,Corporate,Communication Services,2018-04-30
+XS1208856341,Bulgaria,UNK_932,Bond,Government,OOTC,Sovereign,,2018-01-31
+XS1428088626,Croatia,UNK_948,Bond,Government,OOTC,Sovereign,,2018-01-31
+IE00BKPSFD61,iShares China CNY Bond UCITS ETF USD Acc | CYBA,UNK_480,MTF,Bond,XAMS,,,2021-06-25
+IE00BYPC1H27,iShares China CNY Bond UCITS ETF USD (Dist) | CNYB,UNK_495,MTF,Bond,XAMS,,,2019-12-09
+IE00B19Z9Z06,Legg Mason ClearBridge US Aggressive Growth Fund Class A US$ Accumulating,UNK_447,MTF,Equity,XASM,,,2018-01-02
+IE00BQQPSF11,Franklin Multi-Asset Conservative Fund A USD Accumulation,UNK_491,MTF,Other,XASM,,,2018-01-02
+AU3CB0237725,Hyundai Capital Services,UNK_3,Bond,Corporate,XASX,Corporate,Leasing and Rental,2018-01-02
+AU3CB0258465,Westpac Banking,UNK_7,Bond,Corporate,XASX,Corporate,Banks,2019-04-12
+100974271034,VIOHALCO SA (el-GR),ΒΙΟ,Stock,Large Cap,XATH,,,2018-01-02
+BE0974303357,CENERGY HOLDINGS SA,CENER,Stock,,XATH,Industrials,Electrical Equipment & Parts,2018-01-02
+CH0198251305,COCA COLA HELLENIC BOTTLING CO AG,ΕΕΕ,Stock,Large Cap,XATH,Consumer Defensive,Beverages - Non-Alcoholic,2018-01-02
+GRC1441197B3,ATTICA HOLDINGS S.A.,ΑΤΤΙΚΑΟ1,Bond,Corporate,XATH,Corporate,Marine Transportation,2019-07-29
+GRC1451184D4,"GEK TERNA HOLDING, REAL ESTATE, CONSTRUCTION S.A.",ΓΕΚΤΕΡΝΑΟ1,Bond,Corporate,XATH,Corporate,Miscellaneous Construction,2018-04-05
+GRC2451227D9,LAMDA DEVELOPMENT SA,ΛΑΜΔΑΟ2,Bond,Corporate,XATH,Corporate,Miscellaneous Construction,2022-07-13
+GRC281121BD8,ELVALHALCOR HELLENIC COPPER AND ALUMINIUM INDUSTRY S.A.,ΕΛΧΑΟ1,Bond,Corporate,XATH,Corporate,Non-Ferrous Metals,2021-11-17
+GRC3931176B0,MYTILINEOS HOLDINGS S.A.,ΜΥΤΙΛΟ1,Bond,Corporate,XATH,Corporate,Other Sectors,2018-01-02
+GRC419120AD7,GREEK ORGANISATION OF FOOTBALL PROGNOSTICS S.A.,ΟΠΑΠΟ2,Bond,Corporate,XATH,Corporate,Hotels and Lodging,2020-10-29
+GRC4261213D5,MOTOR OIL HELLAS CORINTH REFINERIES SA,ΜΟΗΟ1,Bond,Corporate,XATH,Corporate,Oil and Gas Extraction and Refining,2021-03-24
+GRC4951193D4,AEGEAN AIRLINES S.A.,ΑΡΑΙΓΟ1,Bond,Corporate,XATH,Corporate,Air Transportation,2019-03-13
+GRC4971221B3,PREMIA PROPERTIES SA,ΠΡΕΜΙΑΟ1,Bond,Corporate,XATH,Corporate,Domestic and Commercial Construction,2022-01-26
+GRC5091217D9,PRODEA R.E.I.C. S.A.,ΠΡΟΝΤΕΑΟ1,Bond,Corporate,XATH,Corporate,Real Estate Investment and Services,2021-07-21
+GRC5211214B5,COSTAMARE PARTICIPATIONS PLC,CMPB1,Bond,Corporate,XATH,Corporate,Other Financial Institutions,2021-05-26
+GRC8081169B2,HOUSEMARKET BOND,ΧΑΟΥΣΜΟ1,Bond,Corporate,XATH,Corporate,Miscellaneous Wholesale and Retail Trade,2018-01-02
+GRC8121176B9,SYSTEMS SUNLIGHT INDUSTRIAL AND COMMERCIAL COMPANY,ΣΑΝΛΟ1,Bond,Corporate,XATH,Corporate,Power,2018-01-02
+GRC8131177B5,TERNA ENERGY FINANCE S.A,ΤΕΝΕΡΓΧΟ1,Bond,Corporate,XATH,Corporate,Power,2018-01-02
+GRC813119AD1,TERNA ENERGY FINANCE S.A.,ΤΕΝΕΡΓΧΟ2,Bond,Corporate,XATH,Corporate,Power,2019-10-23
+GRC8161185B1,CORAL A.E. OIL AND CHEMICALS COMPANY,ΚΟΡΑΛΟ1,Bond,Corporate,XATH,Corporate,Oil and Gas Extraction and Refining,2018-05-14
+GRC8161185B1,CORAL A.E. OIL AND CHEMICALS COMPANY,ΚΟΡΑΛΟ1,Bond,Corporate,XATH,Corporate,Oil and Gas Extraction and Refining,2018-05-15
+GRC8171186B7,B&F COMMERCIAL & GARMENT INDUSTRIES S.A.,ΒΚΑΙΦΟ1,Bond,Corporate,XATH,Corporate,Miscellaneous Wholesale and Retail Trade,2018-06-27
+GRC8231227D3,CPLP SHIPPING HOLDINGS PLC,CPLPB2,Bond,Corporate,XATH,Corporate,Marine Transportation,2022-07-27
+GRF000153004,ALPHA ETF FTSE ATHEX LARGE CAP EQUITY UCITS,ΑΔΑΚ,MTF,Equity,XATH,,,2018-01-02
+GRK014011008,MERMEREN KOMBINAT A.D. PRILEP(GDR),ΜΕΡΚΟ,Stock,,XATH,Basic Materials,Other Industrial Metals & Mining,2018-01-02
+GRS001003037,ATTICA BANK S.A,ΑΤΤ,Stock,,XATH,Financial Services,Banks - Regional,2018-01-02
+GRS003003035,NATIONAL BANK OF GREECE,ΕΤΕ,Stock,Large Cap,XATH,,,2018-01-02
+GRS004013009,BANK OF GREECE (CR),ΕΛΛ,Stock,,XATH,Financial Services,Banks - Regional,2018-01-02
+GRS014003032,PIRAEUS FINANCIAL HOLDINGS S.A.,ΠΕΙΡ,Stock,Large Cap,XATH,Financial Services,Banks - Regional,2018-01-02
+GRS015003007,ALPHA SERVICES AND HOLDINGS S.A.,ΑΛΦΑ,Stock,Large Cap,XATH,Financial Services,Banks - Regional,2018-01-02
+GRS045003001,SELECTED TEXTILE IND. ASSOC. S.A. (CR),ΕΠΙΛΚ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-01-02
+GRS047063003,LANAKAM S.A. (CR),ΛΑΝΑΚ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-01-02
+GRS054003009,EL. D. MOUZAKIS S.A. (CR),ΜΟΥΖΚ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2019-09-05
+GRS054061007,EL. D. MOUZAKIS  S.A. (CB),ΜΟΥΖΚ,Stock,,XATH,,,2018-01-02
+GRS059063008,WOOL  INDUSTRY  TRIA  ALFA S.A. (CR),ΑΑΑΚ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-01-02
+GRS059064006,WOOL  INDUSTRY  TRIA  ALFA S.A. (PR),ΑΑΑΠ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-01-02
+GRS065003014,PAPOUTSANIS S.A. (CR),ΠΑΠ,Stock,,XATH,Consumer Defensive,Household & Personal Products,2018-01-02
+GRS070003009,KEKROPS S.A. (CR),ΚΕΚΡ,Stock,,XATH,,,2018-01-02
+GRS074083007,TITAN CEMENT COMPANY S.A. (CR),ΤΙΤΚ,Stock,,XATH,,,2018-01-02
+GRS074084005,TITAN CEMENT COMPANY S.A. (PR),ΤΙΤΠ,Stock,,XATH,,,2018-01-02
+GRS079103008,NEXANS HELLAS S.A. (CR),ΑΛΚΑΤ,Stock,,XATH,,,2018-01-02
+GRS083003012,F.G. EUROPE S.A. (CR),ΕΦΤΖΙ,Stock,,XATH,,,2018-01-02
+GRS084003011,UNIBIOS HOLDINGS S.A.,ΒΙΟΣΚ,Stock,,XATH,Industrials,Pollution & Treatment Controls,2018-01-02
+GRS087003000,INTRACOM S.A. HOLDINGS (CR),ΙΝΤΚΑ,Stock,,XATH,Technology,Communication Equipment,2018-09-14
+GRS087103008,INTRACOM S.A. HOLDINGS (CR),ΙΝΤΚΑ,Stock,,XATH,,,2018-01-02
+GRS088003017,ELASTRON  S.A. (CR),ΕΛΣΤΡ,Stock,,XATH,Basic Materials,Steel,2018-01-02
+GRS090003005,N. LEVEDERIS S.A.  (CR),ΛΕΒΚ,Stock,,XATH,Basic Materials,Steel,2019-08-12
+GRS090004003,N. LEVEDERIS S.A.  (PR),ΛΕΒΠ,Stock,,XATH,Basic Materials,Steel,2019-08-12
+GRS090101007,N. LEVEDERIS S.A.  (CB),ΛΕΒΚ,Stock,,XATH,,,2018-01-02
+GRS090106006,N. LEVEDERIS S.A.  (PB),ΛΕΒΠ,Stock,,XATH,,,2018-01-02
+GRS092103001,BITROS HOLDING S.A.(CR),ΜΠΤΚ,Stock,,XATH,Industrials,Metal Fabrication,2018-01-02
+GRS095001004,PIPEWORKS L. GIRAKIAN PROFIL S.A.,ΤΖΚΑ,Stock,,XATH,,,2018-01-02
+GRS095003000,PIPEWORKS L. GIRAKIAN PROFIL S.A.,ΤΖΚΑ,Stock,,XATH,Basic Materials,Steel,2019-12-31
+GRS096003009,FOURLIS  S.A.(CR),ΦΡΛΚ,Stock,Large Cap,XATH,Consumer Cyclical,Specialty Retail,2018-01-02
+GRS106003007,REDS S.A. (CR),ΚΑΜΠ,Stock,,XATH,Real Estate,Real Estate - Diversified,2018-01-02
+GRS110111002,J.BOUTARIS AND SON HOLDING S.A. (CB),ΜΠΟΚΑ,Stock,,XATH,,,2018-01-02
+GRS110116001,J.BOUTARIS AND SON HOLDING S.A. (PB),ΜΠΟΠΑ,Stock,,XATH,,,2018-01-02
+GRS111003026,P.G NIKAS S.A,ΝΙΚΑΣ,Stock,,XATH,,,2018-01-02
+GRS117123000,LOULIS FOOD INGREDIENTS,ΛΟΥΛΗ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS118003003,C. SARANTOPOULOS FLOUR MILLS S.A. (CR),ΣΑΡΑΝ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS120003009,KARELIA TOBACCO COMPANY INC S.A.,ΚΑΡΕΛ,Stock,,XATH,Consumer Defensive,Tobacco,2019-12-13
+GRS120131008,KARELIA TOBACCO COMPANY   S.A. (C),ΚΑΡΕΛ,Stock,,XATH,,,2018-01-02
+GRS124153008,VIS S.A. (CR),ΒΙΣ,Stock,,XATH,Consumer Cyclical,Packaging & Containers,2018-01-02
+GRS128003001,LAMPSA  HOTEL  S.A. (CR),ΛΑΜΨΑ,Stock,,XATH,Consumer Cyclical,Lodging,2018-01-02
+GRS131003006,INTERWOOD XYLEMPORIA S.A. (CR),ΞΥΛΚ,Stock,,XATH,Basic Materials,Lumber & Wood Production,2018-01-02
+GRS131004004,INTERWOOD XYLEMPORIA S.A. (PR),ΞΥΛΠ,Stock,,XATH,Basic Materials,Lumber & Wood Production,2018-01-02
+GRS135003002,BIOTER S.A. (CR),ΒΙΟΤ,Stock,,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS137003000,GEN. COMMERCIAL AND IND. (CR),ΓΕΒΚΑ,Stock,,XATH,Industrials,Industrial Distribution,2018-01-02
+GRS142003003,ELTRAK S.A. (CR),ΕΛΤΚ,Stock,,XATH,,,2018-01-02
+GRS144003001,ATTICA HOLDINGS S.A. (CR),ΑΤΤΙΚΑ,Stock,,XATH,Industrials,Marine Shipping,2018-01-02
+GRS145003000,"GEK TERNA HOLDING, REAL ESTATE, CONSTRUCTION (CR)",ΓΕΚΤΕΡΝΑ,Stock,Large Cap,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS147233001,ATHENS MEDICAL C.S.A. (CR),ΙΑΤΡ,Stock,,XATH,Healthcare,Medical Care Facilities,2018-01-02
+GRS148003015,IDEAL HOLDINGS A.E.,ΙΝΤΕΚ,Stock,,XATH,Technology,Electronics & Computer Distribution,2018-01-02
+GRS156203002,SATO OFFICE AND HOUSEWARE SUPPLIES S.A. (CR),ΣΑΤΟΚ,Stock,,XATH,Industrials,Business Equipment & Supplies,2018-01-02
+GRS165063009,BIOKARPET S.A. IND. AND COMM.ENT.(CR),ΒΙΟΚΑ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-01-02
+GRS179003017,AEOLIAN INVESTMENT FUND S.A. (CR),ΑΙΟΛΚ,Stock,,XATH,,,2018-01-02
+GRS182003004,AEGEK (CR),ΑΕΓΕΚ,Stock,,XATH,Real Estate,Real Estate Services,2018-01-02
+GRS184003002,PROODEFTIKH TECHNICAL COMPANY S.A. (CR),ΠΡΔ,Stock,,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS191213008,ELLAKTOR S.A. (CR),ΕΛΛΑΚΤΩΡ,Stock,Large Cap,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS201003019,SELONDA AQUACULTURE S.A. (CR),ΣΕΛΟ,Stock,,XATH,,,2018-01-02
+GRS204003008,GR. SARANTIS  S.A.(CR),ΣΑΡ,Stock,Large Cap,XATH,Consumer Defensive,Household & Personal Products,2018-01-02
+GRS208303008,INFORM P. LYKOS HOLDINGS S.A.,ΛΥΚ,Stock,,XATH,Industrials,Specialty Business Services,2018-01-02
+GRS213213002,AVAX S.A. (CR),ΑΒΑΞ,Stock,,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS222213001,EKTER S.A. (CR),ΕΚΤΕΡ,Stock,,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS224003004,KRE.KA S.A. (CR),ΚΡΕΚΑ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS233003003,ATHENA S.A. (CR),ΑΘΗΝΑ,Stock,,XATH,,,2018-01-02
+GRS234003002,NIREFS S.A. (CR),ΝΗΡ,Stock,,XATH,,,2018-01-02
+GRS237003009,MINERVA KNITWEAR (CB),ΜΙΝ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2019-09-11
+GRS237061007,MINERVA KNITWEAR (CB),ΜΙΝ,Stock,,XATH,,,2018-01-02
+GRS239003007,THRACE PLASTICS S.A.(CR),ΠΛΑΘ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-01-02
+GRS240003012,ELVE S.A.,ΕΛΒΕ,Stock,,XATH,Consumer Cyclical,Apparel Manufacturing,2018-01-02
+GRS245213004,LAMDA DEVELOPMENT S.A. (CR),ΛΑΜΔΑ,Stock,Large Cap,XATH,Real Estate,Real Estate - Development,2018-01-02
+GRS246003008,LAVIPHARM SA (CR),ΛΑΒΙ,Stock,,XATH,Healthcare,Drug Manufacturers - Specialty & Generic,2022-07-26
+GRS246073001,LAVIPHARM S.A. (CR),ΛΑΒΙ,Stock,,XATH,,,2018-01-02
+GRS247003007,INTERTECH S.A.  INTERNATIONAL TECHNOLOGIES (CR),ΙΝΤΕΤ,Stock,,XATH,Technology,Electronics & Computer Distribution,2019-05-06
+GRS247183007,INTERTECH S.A. (CR),ΙΝΤΕΤ,Stock,,XATH,,,2018-01-02
+GRS249003005,YALCO - CONSTANTINOU S.A.(CR),ΥΑΛΚΟ,Stock,,XATH,Consumer Defensive,Household & Personal Products,2019-11-29
+GRS249501008,YALCO - CONSTANTINOU S.A. (CB),ΥΑΛΚΟ,Stock,,XATH,,,2018-01-02
+GRS250073004,ELVIEMEK LAND DEVELOMPENT-LOGISTICS PARKS-ENERGY-R,ΕΛΒΙΟ,Stock,,XATH,Real Estate,Real Estate Services,2018-01-02
+GRS254183007,G.E. DIMITRIOU S.A.(CR),ΓΕΔ,Stock,,XATH,,,2018-01-02
+GRS259003002,FLEXOPACK S.A. (CR),ΦΛΕΞΟ,Stock,,XATH,Consumer Cyclical,Packaging & Containers,2018-01-02
+GRS260333000,HELLENIC TELECOM ORGANIZATION SA,ΟΤΕ,Stock,Large Cap,XATH,Communication Services,Telecom Services,2018-01-02
+GRS265003004,NAFPAKTOS TEXTILE INDUSTRY S.A. (CB),ΝΑΥΠ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2019-09-20
+GRS265061002,NAFPAKTOS TEXTILE INDUSTRY S.A. (CB),ΝΑΥΠ,Stock,,XATH,,,2018-01-02
+GRS275073005,E. PAIRIS S.A (CR),ΠΑΙΡ,Stock,,XATH,Consumer Cyclical,Packaging & Containers,2018-01-02
+GRS277023008,EUROPEAN RELIANCE GEN. INSUR. S.A. (CR),ΕΥΠΙΚ,Stock,,XATH,,,2018-01-02
+GRS279003008,SFAKIANAKIS  S.A. (CR),ΣΦΑ,Stock,,XATH,Consumer Cyclical,Auto & Truck Dealerships,2018-01-02
+GRS281003004,ELVAL HALCOR HELLENIC COPPER AND ALUMINIUM INDUSTR,ΕΛΧΑ,Stock,,XATH,Industrials,Metal Fabrication,2019-11-08
+GRS281101006,ΕΛΒΑΛΧΑΛΚΟΡ ΕΛΛΗΝΙΚΗ ΒΙΟΜΗΧΑΝΙΑ ΧΑΛΚΟΥ ΚΑΙ ΑΛΟΥΜΙΝ,ΕΛΧΑ,Stock,,XATH,,,2018-01-02
+GRS282183003,JUMBO S.A. (CR),ΜΠΕΛΑ,Stock,Large Cap,XATH,Consumer Cyclical,Specialty Retail,2018-01-02
+GRS284183001,THE HOUSE OF AGRICULTURE  SPIROU S.A. (CR),ΣΠΥΡ,Stock,,XATH,Basic Materials,Agricultural Inputs,2018-01-02
+GRS289103004,ALUMIL ALUMINIUM INDUSTRY S.A. (CR),ΑΛΜΥ,Stock,,XATH,Basic Materials,Aluminum,2018-01-02
+GRS294003009,FOLLIE FOLLIE GROUP (CR),ΦΦΓΚΡΠ,Stock,,XATH,Consumer Cyclical,Luxury Goods,2018-01-02
+GRS295003008,KIRIACOULIS SHIPPING S.A. (CR),ΚΥΡΙΟ,Stock,,XATH,Consumer Cyclical,Leisure,2018-01-02
+GRS296273006,ΜΙΝΩΙΚΕΣ ΓΡΑΜΜΕΣ-ΚΟ,ΜΙΝΟΑ,Stock,,XATH,,,2018-01-02
+GRS298343005,HELLENiQ ENERGY HOLDINGS S.A.,ΕΛΠΕ,Stock,Large Cap,XATH,Energy,Oil & Gas Integrated,2018-01-02
+GRS299003004,PERSEUS S.A. (CR),ΠΕΡΣ,Stock,,XATH,,,2018-01-02
+GRS301003000,VARANGIS AVEPE S.A.,ΒΑΡΓ,Stock,,XATH,Consumer Cyclical,"Furnishings, Fixtures & Appliances",2018-01-02
+GRS308003003,ΝΤΡΟΥΚΦΑΡΜΠΕΝ ΕΛΛΑΣ Α.Ε.-ΚΟ,ΔΡΟΥΚ,Stock,,XATH,,,2018-01-02
+GRS310003009,QUEST HOLDINGS S.A. (CR),ΚΟΥΕΣ,Stock,,XATH,Technology,Electronics & Computer Distribution,2018-01-02
+GRS314003005,MARFIN INVESTEMENT GROUP S.A.,ΜΙΓ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS315003004,KARAMOLEGOS BAKERY INDUSTRY S.A. (CR),ΚΜΟΛ,Stock,,XATH,Consumer Defensive,Grocery Stores,2018-01-02
+GRS316003003,ANEK LINES S.A. (CR),ΑΝΕΚ,Stock,,XATH,Industrials,Marine Shipping,2018-01-02
+GRS316007004,"ANEK LINES S.A. (PR, issue '90)",ΑΝΕΠ,Stock,,XATH,Industrials,Marine Shipping,2018-01-02
+GRS316007012,"ANEK LINES S.A. (PR, issue '96)",ΑΝΕΠΟ,Stock,,XATH,Industrials,Marine Shipping,2018-01-02
+GRS319103008,MEVACO S.A. (CR),ΜΕΒΑ,Stock,,XATH,Basic Materials,Steel,2018-01-02
+GRS320313000,PLAISIO COMPUTERS S.A. (CR),ΠΛΑΙΣ,Stock,,XATH,Technology,Computer Hardware,2018-01-02
+GRS323003012,EUROBANK ERGASIAS SERVICES AND HOLDINGS S.A.,ΕΥΡΩΒ,Stock,Large Cap,XATH,Financial Services,Banks - Regional,2018-01-02
+GRS326003019,CRETE PLASTICS S.A. (CR),ΠΛΑΚΡ,Stock,,XATH,Basic Materials,Specialty Chemicals,2018-01-02
+GRS329503007,ELGEKA S.A. (CR),ΕΛΓΕΚ,Stock,,XATH,Consumer Defensive,Food Distribution,2018-01-02
+GRS331043000,ALPHA ASTIKA AKINHTA S.A. (CR),ΑΣΤΑΚ,Stock,,XATH,Real Estate,Real Estate Services,2018-01-02
+GRS332073006,FIERATEX S.A. (CR),ΦΙΕΡ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-01-02
+GRS337003008,AUTOHELLAS SA,ΟΤΟΕΛ,Stock,,XATH,Industrials,Rental & Leasing Services,2018-01-02
+GRS339003022,DIONIC S.A. (CR),ΔΙΟΝ,Stock,,XATH,Industrials,Industrial Distribution,2018-01-02
+GRS340263003,ATTICA PUBLICATIONS S.A. (CR),ΑΤΕΚ,Stock,,XATH,Communication Services,Publishing,2018-01-02
+GRS341003002,EUROMEDICA S.A. (CR),ΕΥΡΟΜ,Stock,,XATH,,,2018-01-02
+GRS343313003,INTRALOT SA,ΙΝΛΟΤ,Stock,,XATH,Consumer Cyclical,Gambling,2018-01-02
+GRS344003009,VARVARESSOS S.A. EUROPEAN SPINNING MILLS (CR),ΒΑΡΝΗ,Stock,,XATH,Consumer Cyclical,Textile Manufacturing,2018-10-12
+GRS344061007,VARVARESSOS S.A. EUROPEAN SPINNING MILLS (CB),ΒΑΡΝΗ,Stock,,XATH,,,2018-01-02
+GRS345503007,PETROS PETROPOULOS (CR),ΠΕΤΡΟ,Stock,,XATH,Industrials,Farm & Heavy Construction Machinery,2018-01-02
+GRS346003007,FRIGOGLASS S.A.(CR),ΦΡΙΓΟ,Stock,,XATH,Consumer Cyclical,Packaging & Containers,2018-01-02
+GRS348003005,CHATZIKRANIOTIS AND SONS MILLS S.A. (CR),ΧΚΡΑΝ,Stock,,XATH,,,2018-01-02
+GRS350263000,HAIDEMENOS  S.A. (CR),ΧΑΙΔΕ,Stock,,XATH,Industrials,Specialty Business Services,2018-01-02
+GRS354003006,KOSTAS LAZARIDIS S.A. (CR),ΚΤΗΛΑ,Stock,,XATH,Consumer Defensive,Beverages - Wineries & Distilleries,2018-01-02
+GRS359353000,ATHENS WATER SUPPLY AND SEWERAGE S.A.,ΕΥΔΑΠ,Stock,Large Cap,XATH,Utilities,Utilities - Regulated Water,2018-01-02
+GRS364253005,DOMIKI KRITIS S.A. (CR),ΔΟΜΙΚ,Stock,,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS368313003,BYTE COMPUTER S.A. (CR),ΒΥΤΕ,Stock,,XATH,,,2018-01-02
+GRS371113002,KRETA FARM S.A. (CR),ΚΡΕΤΑ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS372003004,IKTINOS HELLAS S.A (CR),ΙΚΤΙΝ,Stock,,XATH,Industrials,Building Products & Equipment,2018-01-02
+GRS373173004,AKRITAS S.A. (CR),ΑΚΡΙΤ,Stock,,XATH,Basic Materials,Lumber & Wood Production,2018-01-02
+GRS374003002,MATHIOS REFRACTORY S.A. (CR),ΜΑΘΙΟ,Stock,,XATH,Basic Materials,Building Materials,2018-01-02
+GRS375183001,N. VARVERIS-MODA BAGNO S.A. (CR),ΜΟΝΤΑ,Stock,,XATH,Consumer Cyclical,"Furnishings, Fixtures & Appliances",2018-01-02
+GRS379233000,IASO S.A. (CR),ΙΑΣΩ,Stock,,XATH,,,2018-01-02
+GRS382073005,DAIOS PLASTICS SA (CR),ΔΑΙΟΣ,Stock,,XATH,Basic Materials,Specialty Chemicals,2018-01-02
+GRS384003000,KORDELLOS CH. BROS S.A.(CR),ΚΟΡΔΕ,Stock,,XATH,Basic Materials,Steel,2018-01-02
+GRS385113006,EVROFARMA SA (CR),ΕΒΡΟΦ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS387503006,NAKAS MUSIC (CR),ΝΑΚΑΣ,Stock,,XATH,Consumer Cyclical,Specialty Retail,2018-01-02
+GRS392193009,DUROS S.A. (CR),ΔΟΥΡΟ,Stock,,XATH,Consumer Cyclical,Apparel Manufacturing,2018-01-02
+GRS393503008,MYTILINAIOS SA,ΜΥΤΙΛ,Stock,Large Cap,XATH,Industrials,Conglomerates,2018-01-02
+GRS395363005,HELLENIC EXCHANGES-ATHENS STOCK EXCHANGE S.A,ΕΧΑΕ,Stock,Large Cap,XATH,Financial Services,Financial Data & Stock Exchanges,2018-01-02
+GRS396003006,QUALITY AND RELIABILITY S.A.(CR),ΚΟΥΑΛ,Stock,,XATH,Technology,Software - Application,2018-01-02
+GRS397003005,ELTON  S.A.(CR),ΕΛΤΟΝ,Stock,,XATH,Basic Materials,Chemicals,2018-01-02
+GRS398003004,GEKE S.A. (CB),ΠΡΕΖΤ,Stock,,XATH,,,2019-12-31
+GRS398161000,GEKE S.A. (CB),ΠΡΕΖΤ,Stock,,XATH,,,2018-01-02
+GRS399163005,KARATZIS  S.A. (CR),ΚΑΡΤΖ,Stock,,XATH,,,2018-01-02
+GRS402003008,SPACE HELLAS S.A. (CR),ΣΠΕΙΣ,Stock,,XATH,Technology,Software - Application,2018-01-02
+GRS403003007,TECHNICAL OLYMPIC S.A. (CR),ΟΛΥΜΠ,Stock,,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS404003006,A.S.COMPANY A.E-ΚΟ,ΑΣΚΟ,Stock,,XATH,Consumer Cyclical,Leisure,2018-01-02
+GRS405003005,PAPERPACK PRINTING BOX MANUFACTURING,ΠΠΑΚ,Stock,,XATH,,,2018-01-02
+GRS406003004,Forthnet S.A. (CR),ΦΟΡΘ,Stock,,XATH,,,2018-01-02
+GRS407183003,VOYATZOGLOU S.A,ΒΟΣΥΣ,Stock,,XATH,Consumer Cyclical,"Furnishings, Fixtures & Appliances",2018-01-02
+GRS412503005,DROMEAS S.A.  (CR),ΔΡΟΜΕ,Stock,,XATH,Consumer Cyclical,"Furnishings, Fixtures & Appliances",2018-01-02
+GRS413313008,CPI COMPUTER PERIPHERALS INTER/NAL (CR),ΣΠΙ,Stock,,XATH,Technology,Information Technology Services,2018-01-02
+GRS419003009,OPAP SA,ΟΠΑΠ,Stock,Large Cap,XATH,Consumer Cyclical,Gambling,2018-01-02
+GRS422003004,MLS INNOVATION INC,ΜΛΣ,Stock,,XATH,Technology,Software - Application,2018-01-02
+GRS424003002,MEDICON HELLAS S.A (CR),ΜΕΝΤΙ,Stock,,XATH,Healthcare,Drug Manufacturers - Specialty & Generic,2018-01-02
+GRS426003000,MOTOR OIL REFINERIES SA,ΜΟΗ,Stock,Large Cap,XATH,Energy,Oil & Gas Refining & Marketing,2018-01-02
+GRS427003009,TPA S.A. (CR),ΟΛΘ,Stock,,XATH,Industrials,Marine Shipping,2018-01-02
+GRS428003008,THESSALONIKA WATER AND SEWERAGE SA (CR),ΕΥΑΠΣ,Stock,,XATH,Utilities,Utilities - Regulated Water,2018-01-02
+GRS432003028,INTRAKAT SOCIETE ANONYME TECHNICAL AND ENERGY PROJECTS,ΙΝΚΑΤ,Stock,,XATH,Industrials,Engineering & Construction,2018-01-02
+GRS433003019,ALPHA  TRUST ANDROMEDA INVESTMENT TRUST S.A. (CR),ΑΝΔΡΟ,Stock,,XATH,Financial Services,Asset Management,2018-01-02
+GRS434003000,PPC SA,ΔΕΗ,Stock,Large Cap,XATH,Utilities,Utilities - Renewable,2018-01-02
+GRS438003006,FLOUR MILLS KEPENOS S.A. (CR),ΚΕΠΕΝ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS439003005,EUROCONSULTANTS S.A. (CR),ΕΣΥΜΒ,Stock,,XATH,Technology,Information Technology Services,2018-01-02
+GRS445003007,DIAGNOSTICANDTHERAPEUTIC CENTER OF ATHENS YGEIA (C,ΥΓΕΙΑ,Stock,,XATH,,,2018-01-02
+GRS446003014,LIVANI PUBLISHING ORGANIZATION S.A. (CR),ΛΙΒΑΝ,Stock,,XATH,Communication Services,Publishing,2018-01-02
+GRS448003004,STELIOS KANAKIS SA (CR),ΚΑΝΑΚ,Stock,,XATH,,,2018-01-02
+GRS449003003,CENTRIC MULTIMEDIA S.A. (CR),ΣΕΝΤΡ,Stock,,XATH,Financial Services,Asset Management,2018-01-02
+GRS457003002,NEWSPHONE HELLAS S.A. AUDIOTEX (CR),ΝΙΟΥΣ,Stock,,XATH,,,2018-01-02
+GRS461003006,Logismos INFORMATION SYSTEMS S.A. (CR),ΛΟΓΟΣ,Stock,,XATH,Technology,Software - Application,2018-01-02
+GRS469003024,KRI- KRI MILK INDUSTRY S.A. (CR),ΚΡΙ,Stock,,XATH,Consumer Defensive,Packaged Foods,2018-01-02
+GRS470003013,PPA SA (CR),ΟΛΠ,Stock,Large Cap,XATH,Industrials,Marine Shipping,2018-01-02
+GRS472003011,PROFILE SYSTEMS AND SOFTWARE S.A. (CR),ΠΡΟΦ,Stock,,XATH,Technology,Software - Application,2018-01-02
+GRS473003002,REVOIL S.A. (CR),ΡΕΒΟΙΛ,Stock,,XATH,Energy,Oil & Gas Refining & Marketing,2018-01-02
+GRS474003001,I. KLOUKINAS - I. LAPPAS S.A. CON. AND CO.COMP(CR),ΚΛΜ,Stock,,XATH,Consumer Cyclical,Apparel Retail,2018-01-02
+GRS475003018,ILYDA S.A. (CR),ΙΛΥΔΑ,Stock,,XATH,Technology,Software - Application,2018-01-02
+GRS477003008,ELINOIL HELLENIC PETROLEUM COMPANY S.A. (CR),ΕΛΙΝ,Stock,,XATH,Energy,Oil & Gas Refining & Marketing,2018-01-02
+GRS484003009,SIDMA STEEL SA,ΣΙΔΜΑ,Stock,,XATH,Basic Materials,Steel,2018-01-02
+GRS487003006,TRASTOR REAL ESTATE INVESTMENT COMPANY (CR),ΤΡΑΣΤΟΡ,Stock,,XATH,Real Estate,REIT - Diversified,2018-01-02
+GRS488003005,MOTODYNAMICS S.A. (CR),ΜΟΤΟ,Stock,,XATH,Consumer Cyclical,Auto & Truck Dealerships,2018-01-02
+GRS489003004,AVE S.A.,ΑΒΕ,Stock,,XATH,Communication Services,Entertainment,2018-01-02
+GRS491003000,GRIVALIA PROPERTIES R.E.I.C. (CR),ΓΡΙΒ,Stock,,XATH,,,2018-01-02
+GRS494003007,KORRES NATURAL PRODUCTS (CR),ΚΟΡΡΕΣ,Stock,,XATH,,,2018-01-02
+GRS495003006,AEGEAN AIRLINES,ΑΡΑΙΓ,Stock,Large Cap,XATH,Industrials,Airlines,2018-01-02
+GRS496003005,TERNA ENERGY S.A. (CR),ΤΕΝΕΡΓ,Stock,Large Cap,XATH,Utilities,Utilities - Renewable,2018-01-02
+GRS497003012,PREMIA PROPERTIES,ΠΡΕΜΙΑ,Stock,,XATH,Real Estate,Real Estate - Development,2018-01-02
+GRS498003003,EPSILON NET S.A. (CR),ΕΠΣΙΛ,Stock,,XATH,Technology,Software - Application,2020-07-15
+GRS504003021,ALPHA TRUST MUTUAL FUND AND ALTERNATIVE INVESTMENT,ΑΤΡΑΣΤ,Stock,,XATH,Financial Services,Asset Management,2022-07-05
+GRS509003018,PRODEA REAL ESTATE INVESTMENT COMPANY S.A.,ΠΡΟΝΤΕΑ,Stock,,XATH,Real Estate,REIT - Office,2018-01-02
+GRS513003004,ELTECH ANEMOS S.A.,ΑΝΕΜΟΣ,Stock,,XATH,,,2018-01-02
+GRS516003001,INTERCONTINENTAL INTERNATIONAL Α.Ε.Ε.Α.Π.,ΙΝΤΕΡΚΟ,Stock,,XATH,Real Estate,REIT - Diversified,2018-01-02
+GRS517003000,BRIQ PROPERTIES REIC (CR),ΜΠΡΙΚ,Stock,,XATH,Real Estate,REIT - Office,2018-01-02
+GRS518003009,HOLDING COMPANY ADMIE IPTO S.A.,ΑΔΜΗΕ,Stock,Large Cap,XATH,Utilities,Utilities - Independent Power Producers,2018-01-02
+GRS520003005,CNL CAPITAL EKES-AIFM,CNLCAP,Stock,,XATH,Financial Services,Asset Management,2018-07-31
+GRS525003000,DIMAND SOCIETE ANONYME DEVELOPMENT AND EXPLOITATION OF REAL ESTATE AND CONSTRUCTIONS SERVICES AND HOLDING,DIMAND,Stock,,XATH,Real Estate,Real Estate - Development,2022-07-06
+ES0000012A89,Spain,UNK_78,Bond,Government,XBAR,Sovereign,,2018-01-01
+ES0000012G00,"Obligaciones del Tesoro Público España, 1%, 31/05/2025",SPGB 1 10/31/50,Bond,Government,XBAR,,,2020-03-03
+ES0113900J37,Banco Santander SA,UNK_85,Stock,,XBAR,Financial Services,Banks - Diversified,2018-01-02
+ES0144580Y14,Iberdrola SA,UNK_86,Stock,,XBAR,Utilities,Utilities - Diversified,2018-01-02
+ES0173516115,Repsol SA,UNK_88,Stock,,XBAR,Energy,Oil & Gas Integrated,2019-02-07
+ES0178430E18,Telefonica SA,TEFOF,Stock,,XBAR,Communication Services,Telecom Services,2018-01-02
+ES0000101768,"Bonos Comunidad de Madrid, 0.997% 30/09/2024",MADRID 0.997 09/30/24,Bond,Government,XBER,,,2018-12-12
+US294829AA48,Ericsson,UNK_789,Bond,Corporate,XBER,Corporate,Telecommunication Equipment,2018-11-16
+US298785GQ39,European Investment Bank (EIB),UNK_793,Bond,Corporate,XBER,Corporate,Banks,2019-03-21
+US298785GS94,"EUROPEAN INVESTMENT BANK EIB 1,875 02/10/25","EIB 1,875 02/10/25",Bond,Corporate,XBER,Corporate,Banks,2018-01-02
+US500769GK42,KFW,UNK_828,Bond,Corporate,XBER,Corporate,Banks,2018-11-16
+US594918BB90,Microsoft,UNK_829,Bond,Corporate,XBER,Corporate,IT Services and Computer Programming,2018-01-02
+US912828G385,"US TREASURY N/B T 2,250 11/15/24","T 2,250 11/15/24",Bond,Government,XBER,Sovereign,,2018-11-19
+US912828P873,USA,UNK_866,Bond,Government,XBER,Sovereign,,2019-12-27
+US912828U733,USA,UNK_868,Bond,Government,XBER,Sovereign,,2018-12-31
+USC96729AC96,Bausch Health Companies,UNK_872,Bond,Corporate,XBER,Corporate,Pharmaceutical Preparation and Biotechnology,2019-02-01
+XS1292384960,Apple,UNK_937,Bond,Corporate,XBER,Corporate,IT equipment,2018-02-02
+XS1576621632,Avis Budget Car Rental,UNK_965,Bond,Corporate,XBER,Corporate,Leasing and Rental,2018-11-16
+XS2092381107,"ELLAKTOR VALUE PLC ELLAKT 6,375 12/15/24","ELLAKT 6,375 12/15/2",Bond,Corporate,XCIE,Corporate,Other Financial Institutions,2019-12-09
+XS2367107856,Sani/Ikos Financial Holdings 1,UNK_1014,Bond,Corporate,XCIE,Corporate,Hotels and Lodging,2021-07-19
+CY0109610614,WEALTHAVENUE PLC,ΓΟΥΕΛΘ,Stock,,XCYS,,,2022-01-27
+GRS807003017,R ENERGY ONE,ΡΟΕΝ,Stock,,XCYS,Utilities,Utilities - Renewable,2019-01-15
+IE00B11XZB05,PIMCO GIS Total Return Bond Fund E Class EUR (Hedged) Accumulation,UNK_445,MTF,Bond,XDUB,,,2018-01-03
+IE00BFZRPZ02,Ireland,UNK_475,Bond,Government,XDUB,Sovereign,,2019-09-09
+XS1328798779,Allied Irish Banks,UNK_940,Bond,Corporate,XDUB,Corporate,Banks,2020-07-22
+XS1330978567,Ball,UNK_941,Bond,Corporate,XDUB,Corporate,Packaging,2019-05-29
+XS1405888576,The Black Sea Trade and Development Bank,UNK_946,Bond,Corporate,XDUB,Corporate,Banks,2018-11-16
+XS2314265237,Public Power Corporation,UNK_12,Bond,Corporate,XDUB,Corporate,Power,2021-03-16
+XS2359929812,Public Power Corporation,UNK_1012,Bond,Corporate,XDUB,Corporate,Power,2021-07-15
+XS2364001151,MOTOR OIL HELLAS SA MOHGA 2.125 07/19/26,MOHGA 2.125 07/19/26,Bond,Corporate,XDUB,Corporate,Oil and Gas Extraction and Refining,2021-07-12
+XSTITANBOND27,TITAN GLOBAL FINANCE PLC TITKGA 0 06/30/27,TITKGA 0 06/30/27,Bond,Corporate,XDUB,,,2020-07-06
+AU3CB0237881,Apple,UNK_4,Bond,Corporate,XETR,Corporate,IT equipment,2018-11-22
+DE0001102325,BUNDESREPUB DEUTSCHLAND DBR 2 08/15/23,DBR 2 08/15/23,Bond,Government,XETR,Sovereign,,2018-11-16
+DE0001102457,Germany,UNK_43,Bond,Government,XETR,Sovereign,,2019-01-17
+DE0001135275,Germany,UNK_44,Bond,Government,XETR,Sovereign,,2018-11-16
+DE0001141703,Germany,UNK_45,Bond,Government,XETR,Sovereign,,2018-01-01
+DE0002635307,iShares STOXX Europe 600 UCITS ETF (DE) | EXSA,UNK_47,MTF,Equity,XETR,,,2018-01-02
+DE0005552004,Deutsche Post AG,UNK_48,Stock,,XETR,Industrials,Integrated Freight & Logistics,2018-01-02
+DE0005557508,Deutsche Telekom AG,DTE,Stock,,XETR,Communication Services,Telecom Services,2018-01-02
+DE0005933931,iShares Core DAX® UCITS ETF (DE) EUR (Acc) | EXS1,UNK_50,MTF,Equity,XETR,,,2018-01-02
+DE0005933949,iShares STOXX Europe 50 UCITS ETF (DE) | EXW3,UNK_51,MTF,Equity,XETR,,,2018-01-02
+DE0005933956,iShares Core EURO STOXX 50 UCITS ETF (DE) | EXW1,UNK_52,MTF,Equity,XETR,,,2018-01-02
+DE0006047004,HeidelbergCement AG,HEI,Stock,,XETR,Basic Materials,Building Materials,2018-01-02
+DE0006599905,Merck KGaA,MRK,Stock,,XETR,Healthcare,Drug Manufacturers - Specialty & Generic,2018-01-02
+DE0007100000,Mercedes-Benz Group AG,UNK_54,Stock,,XETR,Consumer Cyclical,Auto Manufacturers,2018-01-02
+DE0007164600,SAP SE,SAP,Stock,,XETR,Technology,Software - Application,2018-01-02
+DE0008404005,Allianz SE,ALV,Stock,,XETR,Financial Services,Insurance - Diversified,2018-01-02
+DE000A0DEN75,DPB FLOAT  PERP Deutsche Postbank Funding Trust I,DPB 0 29/12/49,Bond,Corporate,XETR,,,2018-11-16
+DE000A0H0728,iShares Diversified Commodity Swap UCITS ETF (DE) | EXXY,UNK_59,MTF,Other,XETR,,,2018-01-02
+DE000A0H08Q4,iShares STOXX Europe 600 Technology UCITS ETF (DE) | EXV3,UNK_62,MTF,Equity,XETR,,,2018-10-09
+DE000A0H08R2,iShares STOXX Europe 600 Telecommunications UCITS ETF (DE) | EXV2,UNK_63,MTF,Equity,XETR,,,2018-01-02
+DE000A0H08S0,iShares STOXX Europe 600 Travel & Leisure UCITS ETF (DE) | EXV9,UNK_64,MTF,Equity,XETR,,,2020-07-09
+DE000A0Q4R28,iShares STOXX Europe 600 Automobiles & Parts UCITS ETF (DE) | EXV5,UNK_66,MTF,Equity,XETR,,,2018-01-02
+DE000A14ZT85,L&G Cyber Security UCITS ETF,UNK_1018,MTF,Other,XETR,,,2019-06-12
+DE000A194DD9,Mercedes Benz International Finance BV 0.875% 09/04/2024,MBGGR 0.875 04/09/24 EMTN,Bond,Corporate,XETR,,,2018-12-20
+DE000A1EK0H1,Physical Platinum EUR Hedged ETC - Xtrackers ETF,UNK_1020,MTF,Other,XETR,,,2020-03-20
+DE000A2TEDB8,,UNK_73,Bond,Government,XETR,,,2020-07-22
+DE000BASF111,Basf SE,UNK_1017,Stock,,XETR,Basic Materials,Chemicals,2018-01-02
+DE000BAY0017,Bayer AG,UNK_75,Stock,,XETR,Healthcare,Drug Manufacturers - General,2018-01-02
+EU000A1U9985,EURO STABILITY MECHANISM ESM 0 10/18/22,ESM 0 10/18/22,Bond,Corporate,XETR,,,2018-11-16
+EU000A1Z99E3,European Stability Mechanism 0.1 31/07/2023,ESM 0.1 07/31/23 EMTN,Bond,Government,XETR,,,2018-11-19
+IE00B14X4Q57,iShares € Govt Bond 1-3yr UCITS ETF EUR (Dist) | IBGS,UNK_446,MTF,Bond,XETR,,,2018-12-07
+IE00B4L5YX21,iShares Core MSCI Japan IMI UCITS ETF USD (Acc) | IJPA,UNK_457,MTF,Equity,XETR,,,2019-08-07
+IE00B4L60045,iShares € Corp Bond 1-5yr UCITS ETF EUR (Dist) | IE15,UNK_458,MTF,Bond,XETR,,,2018-11-12
+IE00B4WXJJ64,iShares Core € Govt Bond UCITS ETF EUR (Dist) | EUNH,UNK_460,MTF,Bond,XETR,,,2018-10-02
+IE00B52VJ196,iShares MSCI Europe SRI UCITS ETF EUR (Acc) | IESE,UNK_461,MTF,Equity,XETR,,,2021-05-24
+IE00B6YX5K17,SPDR® Bloomberg 1-5 Year Gilt UCITS ETF | GLTS,UNK_464,MTF,Bond,XETR,,,2019-03-13
+IE00B8FHGS14,iShares Edge MSCI World Minimum Volatility UCITS ETF USD (Acc) | MVOL,UNK_467,MTF,Equity,XETR,,,2020-04-30
+IE00BF3N7102,iShares $ High Yield Corp Bond UCITS ETF EUR Hedged (Dist) | IHYE,UNK_471,MTF,Bond,XETR,,,2020-07-23
+IE00BGDQ0L74,iShares European Property Yield UCITS ETF EUR (Acc) | IPRE,UNK_476,MTF,Other,XETR,,,2022-08-05
+IE00BJ5JPH63,iShares J.P. Morgan $ EM Bond UCITS ETF EUR Hedged (Acc) | 3SUD,UNK_478,MTF,Bond,XETR,,,2020-08-12
+IE00BM67HL84,Xtrackers MSCI World Financials UCITS ETF 1C | XDWF,UNK_483,MTF,Equity,XETR,,,2021-01-21
+IE00BM67HM91,Xtrackers MSCI World Energy UCITS ETF 1C | XDW0,UNK_484,MTF,Equity,XETR,,,2018-01-02
+IE00BM67HP23,Xtrackers MSCI World Consumer Discretionary UCITS ETF 1C | XDWC,UNK_485,MTF,Equity,XETR,,,2019-07-25
+IE00BM67HQ30,Xtrackers MSCI World Utilities UCITS ETF 1C | XDWU,UNK_486,MTF,Equity,XETR,,,2020-04-28
+IE00BM67HT60,Xtrackers MSCI World Information Technology UCITS ETF 1C | XDWT,UNK_487,MTF,Equity,XETR,,,2019-11-26
+IE00BZ036J45,Xtrackers USD Corporate Bond UCITS ETF 2D - EUR Hedged | XDGE,UNK_499,MTF,Bond,XETR,,,2020-06-18
+LU0274221281,Xtrackers Switzerland UCITS ETF 1D | XSMI,UNK_617,MTF,Equity,XETR,,,2018-01-02
+LU0290356954,Xtrackers II Eurozone Government Bond 3-5 UCITS ETF 1C | DBXQ,UNK_623,MTF,Bond,XETR,,,2018-01-02
+LU0290358224,Xtrackers II Eurozone Inflation-Linked Bond UCITS ETF 1C | DBXK,UNK_624,MTF,Bond,XETR,,,2019-04-24
+LU0290358497,Xtrackers II EUR Overnight Rate Swap UCITS ETF 1C | DBXT,UNK_625,MTF,Money Market,XETR,,,2018-01-02
+LU0290359032,Xtrackers II iTraxx Crossover Swap UCITS ETF 1C | DBXM,UNK_626,MTF,Bond,XETR,,,2019-02-26
+LU0292108619,Xtrackers MSCI EM Latin America ESG Swap UCITS ETF 1C | XMLA,UNK_628,MTF,Equity,XETR,,,2021-08-30
+LU0524480265,Xtrackers II iBoxx Eurozone Government Bond Yield Plus UCITS ETF 1C | XY4P,UNK_661,MTF,Bond,XETR,,,2018-08-24
+LU0779800910,Xtrackers CSI300 Swap UCITS ETF 1C | XCHA,UNK_679,MTF,Equity,XETR,,,2021-03-16
+LU1645386480,UBS(Lux)Fund Solutions – J.P. Morgan USD EM Diversified Bond 1-5 UCITS ETF(hedged EUR)A-acc | SHEME,UNK_732,MTF,Bond,XETR,,,2020-12-23
+US037833CM07,Apple,UNK_768,Bond,Corporate,XETR,Corporate,IT equipment,2018-11-16
+US136069TY74,CIBC,UNK_775,Bond,Corporate,XETR,Corporate,Banks,2018-11-16
+US298785HA77,European Investment Bank (EIB),UNK_798,Bond,Corporate,XETR,Corporate,Banks,2019-05-20
+US459058JG93,IBRD,UNK_817,Bond,Corporate,XETR,Corporate,Banks,2021-01-29
+US89236TDP75,Toyota Motor Credit,UNK_857,Bond,Corporate,XETR,Corporate,Other Financial Institutions,2018-11-16
+US89236TDR32,Toyota Motor Credit,UNK_858,Bond,Corporate,XETR,Corporate,Other Financial Institutions,2018-11-16
+US91282CDR97,"US TREASURY N/B T 0,750 12/31/23","T 0,750 12/31/23",Bond,Government,XETR,Sovereign,,2022-01-04
+US931422AH23,Walgreen,UNK_879,Bond,Corporate,XETR,Corporate,FMCG-Retail,2018-11-16
+USF12033AZ33,Danone,UNK_887,Bond,Corporate,XETR,Corporate,Food and Beverage Production,2018-11-16
+XS0205537581,Argentina,UNK_898,Bond,Government,XETR,Sovereign,,2018-01-02
+XS0210976329,KBC Bank,UNK_900,Bond,Corporate,XETR,Corporate,Banks,2019-10-21
+XS0213101073,Pemex,UNK_901,Bond,Corporate,XETR,Corporate,Oil and Gas Extraction and Refining,2018-06-21
+XS0478803355,HeidelbergCement,UNK_906,Bond,Corporate,XETR,Corporate,Building Materials,2018-11-19
+XS0505157965,European Investment Bank (EIB),UNK_907,Bond,Corporate,XETR,Corporate,Banks,2018-11-16
+XS0830192711,Gazprom Neft,UNK_911,Bond,Corporate,XETR,Corporate,Oil and Gas Extraction and Refining,2018-11-16
+XS0842659426,Enel,UNK_913,Bond,Corporate,XETR,Corporate,Power,2018-11-16
+XS1503043694,European Investment Bank (EIB),UNK_958,Bond,Corporate,XETR,Corporate,Banks,2019-03-28
+XS1551001768,BASF,UNK_960,Bond,Corporate,XETR,Corporate,Chemical and Petrochemical Industry,2018-11-16
+XS1612977717,European Investment Bank (EIB),UNK_968,Bond,Corporate,XETR,Corporate,Banks,2018-11-16
+XS1645113322,Hapag-Lloyd,UNK_971,Bond,Corporate,XETR,Corporate,Marine Transportation,2018-11-19
+XS1683407453,Council of Europe Development Bank,UNK_973,Bond,Corporate,XETR,Corporate,Banks,2019-02-08
+XS1824424706,Pemex,UNK_986,Bond,Corporate,XETR,Corporate,Oil and Gas Extraction and Refining,2021-01-26
+XS1865186321,Volkswagen Financial Services AG,UNK_989,Bond,Corporate,XETR,Corporate,Microfinance,2018-11-06
+XS1915152000,Instituto de Credito Oficial,UNK_992,Bond,Corporate,XETR,Corporate,Banks,2018-12-04
+XS2010037849,Jaguar Land Rover,UNK_994,Bond,Corporate,XETR,Corporate,Motor Vehicle Production,2020-07-22
+XS2055781962,"EUROPEAN INVESTMENT BANK EIB 0,05 10/13/34","EIB 0,05 10/13/34",Bond,Corporate,XETR,Corporate,Banks,2019-10-21
+FI0009000681,Nokia Oyj,NOA,Stock,,XHEL,Technology,Communication Equipment,2018-01-02
+FI0009003305,Sampo Oyj,UNK_93,Stock,,XHEL,Financial Services,Insurance - Diversified,2018-01-02
+XS0858461758,COSCO Shipping Holdings,UNK_915,Bond,Corporate,XHKG,Corporate,Marine Transportation,2018-11-16
+GB00B15KXV33,WisdomTree WTI Crude Oil ETF,CRUD,MTF,Other,XLON,,,2018-01-02
+GB00B15KY989,WisdomTree Broad Commodities ETF,AIGC,MTF,Other,XLON,,,2018-01-02
+GB00BH4HKS39,Vodafone Group PLC,VOD,Stock,,XLON,Communication Services,Telecom Services,2018-01-02
+GB00BN7CG237,Aston Martin Lagonda Global Holdings PLC,UNK_121,Stock,,XLON,Consumer Cyclical,Auto Manufacturers,2020-12-17
+IE00B14X4Q57,iShares € Govt Bond 1-3yr UCITS ETF EUR (Dist) | IBGS,UNK_446,MTF,Bond,XLON,,,2018-01-02
+IE00B1XNHC34,iShares Global Clean Energy UCITS ETF USD (Dist) | INRG,UNK_449,MTF,Equity,XLON,,,2019-10-29
+IE00B3F81R35,iShares Core € Corp Bond UCITS ETF EUR (Dist) | IEAC,UNK_451,MTF,Bond,XLON,,,2018-01-02
+IE00B3ZW0K18,iShares S&P 500 EUR Hedged UCITS ETF (Acc) | IUSE,UNK_452,MTF,Equity,XLON,,,2018-01-02
+IE00B4K48X80,iShares Core MSCI Europe UCITS ETF EUR (Acc) | IMAE,UNK_455,MTF,Equity,XLON,,,2019-04-25
+IE00B4L5Y983,iShares Core MSCI World UCITS ETF USD (Acc) | IWDA,UNK_456,MTF,Equity,XLON,,,2018-01-02
+IE00B4L60045,iShares € Corp Bond 1-5yr UCITS ETF EUR (Dist) | IE15,UNK_458,MTF,Bond,XLON,,,2018-09-28
+IE00B4S3JD47,Ireland IRGB 3.9% 20/03/2023,IRISH 3.9 03/20/23,Bond,Government,XLON,,,2018-01-01
+IE00B4WXJJ64,iShares Core € Govt Bond UCITS ETF EUR (Dist) | EUNH,UNK_460,MTF,Bond,XLON,,,2018-09-28
+IE00B53SZB19,iShares NASDAQ 100 UCITS ETF USD (Acc) | CSNDX,UNK_462,MTF,Equity,XLON,,,2019-07-25
+IE00B5BMR087,iShares Core S&P 500 UCITS ETF USD (Acc) | CSSPX,UNK_463,MTF,Equity,XLON,,,2018-01-02
+IE00B66F4759,iShares € High Yield Corp Bond UCITS ETF EUR (Dist) | IHYG,HY,Stock,,XLON,EUR High Yield Bond,,2018-01-02
+IE00B66F4759,iShares € High Yield Corp Bond UCITS ETF EUR (Dist) | IHYG,HY,MTF,Bond,XLON,,,2018-01-02
+IE00B7LW6Y90,iShares Italy Govt Bond UCITS ETF EUR (Dist) | IITBm,UNK_465,MTF,Bond,XLON,,,2018-11-02
+IE00B7N3YW49,PIMCO Short-Term High Yield Corporate Bond Index Source UCITS ETF Inc | STHY,UNK_466,MTF,Bond,XLON,,,2018-01-02
+IE00BCRY6003,Ishares Usd Short Dur Hy Crp,SDHY,Stock,,XLON,,,2018-04-27
+IE00BCRY6003,Ishares Usd Short Dur Hy Crp,SDHY,MTF,Other,XLON,,,2018-04-27
+IE00BF11F565,iShares Core € Corp Bond UCITS ETF EUR (Acc) | IEAA,UNK_469,MTF,Bond,XLON,,,2019-01-31
+IE00BF3N7094,iShares € High Yield Corp Bond UCITS ETF EUR (Acc) | HIGH,UNK_470,MTF,Bond,XLON,,,2018-12-04
+IE00BFNM3J75,iShares MSCI World ESG Screened UCITS ETF USD (Acc) | SAWD,UNK_473,MTF,Equity,XLON,,,2021-03-23
+IE00BKWQ0C77,SPDR® MSCI Europe Consumer Discretionary UCITS ETF | STR,UNK_482,MTF,Equity,XLON,,,2018-01-02
+IE00BP3QZ601,iShares Edge MSCI World Quality Factor UCITS ETF USD (Acc) | IWQU,UNK_488,MTF,Equity,XLON,,,2019-04-08
+IE00BP3QZB59,iShares Edge MSCI World Value Factor UCITS ETF USD (Acc) | IWVL,UNK_489,MTF,Equity,XLON,,,2020-11-17
+IE00BP46NG52,SPDR® ICE BofA 0-5 Year EM USD Government Bond UCITS ETF | EMH5,UNK_490,MTF,Bond,XLON,,,2019-02-25
+IE00BYX2JD69,iShares MSCI World SRI UCITS ETF EUR (Acc) | SUSW,UNK_498,MTF,Equity,XLON,,,2020-11-06
+IE00BZ0PKV06,iShares Edge MSCI Europe Multifactor UCITS ETF EUR (Acc) | IBC0,UNK_500,MTF,Equity,XLON,,,2019-07-17
+JE00B3T3K772,WisdomTree Short USD Long EUR 3x Daily,USE3,MTF,Other,XLON,,,2020-03-31
+US219868BZ88,Corporacion Andina de Fomento (CAF),UNK_778,Bond,Corporate,XLON,Corporate,Banks,2019-03-18
+XS0809571739,Transnet,UNK_910,Bond,Corporate,XLON,Corporate,Railroad Transportation,2018-01-02
+XS0969795680,Nestle S.A.,UNK_919,Bond,Corporate,XLON,Corporate,Food and Beverage Production,2018-11-16
+XS1227247191,Cyprus,UNK_933,Bond,Government,XLON,Sovereign,,2018-01-02
+XS1314321941,Cyprus,UNK_938,Bond,Government,XLON,Sovereign,,2018-01-02
+XS1633845158,Lloyds Banking Group,UNK_969,Bond,Corporate,XLON,Corporate,Banks,2019-07-18
+XS1637276848,Cyprus,UNK_970,Bond,Government,XLON,Sovereign,,2018-01-02
+XS1717575259,"NESTLE HOLDINGS INC NESNVX 2,375 11/17/22","NESNVX 2,375 11/17/2",Bond,Corporate,XLON,Corporate,Food and Beverage Production,2018-10-11
+XS2105095777,Cyprus,UNK_1003,Bond,Government,XLON,Sovereign,,2020-01-16
+EU000A1G0D39,European Financial Stablity 0.125% 17/10/2023,EFSF,Bond,Government,XLUX,,,2018-01-02
+LU0012182399,BNP US SHORT DUR BD-CL C,PUK3724 LX,MTF,Money Market,XLUX,,,2021-06-09
+LU0033040782,UBS LUX STRG FD-YIELD EUR-B,SBCEYBI,MTF,Bond,XLUX,,,2018-01-02
+LU0033041590,UBS (Lux) Strategy Fund - Yield Sustainable (USD) P-dist,UNK_524,MTF,Other,XLUX,,,2018-03-22
+LU0039703375,UBS (Lux) Strategy Fund - Fixed Income Sustainable (USD) P-dist,UNK_527,MTF,Bond,XLUX,,,2021-06-09
+LU0049785362,UBS (Lux) Strategy Fund - Balanced Sustainable (EUR) P-dist,EPD,MTF,Other,XLUX,,,2018-01-02
+LU0053903893,Schroder International Selection Fund EURO Government Bond A Distribution EUR AV,UNK_533,MTF,Bond,XLUX,,,2018-01-02
+LU0075938133,BNP Paribas Funds Euro Bond Classic Capitalisation,UNK_537,MTF,Bond,XLUX,,,2020-09-30
+LU0083284397,Schroder International Selection Fund US Dollar Bond A Distribution USD QF,UNK_539,MTF,Bond,XLUX,,,2020-02-11
+LU0089290844,BNP Paribas Funds Target Risk BalancedClassicD,UNK_542,MTF,Other,XLUX,,,2018-01-02
+LU0089291651,BNP Paribas Funds Target Risk BalancedClassicR,UNK_543,MTF,Other,XLUX,,,2018-01-02
+LU0091115906,Schroder International Selection Fund EURO Equity A Distribution EUR AV,UNK_544,MTF,Equity,XLUX,,,2018-01-02
+LU0094557526,MFS Meridian Funds - European Research Fund A1 EUR,UNK_548,MTF,Equity,XLUX,,,2018-01-02
+LU0101692753,Pictet-Digital R USD,UNK_549,MTF,Equity,XLUX,,,2018-01-02
+LU0106235293,Schroder International Selection Fund EURO Equity A Accumulation EUR,UNK_552,MTF,Equity,XLUX,,,2018-01-02
+LU0106244287,Schroder International Selection Fund Swiss Equity A Accumulation CHF,UNK_553,MTF,Equity,XLUX,,,2018-01-03
+LU0115143082,Invesco Funds SICAV - Invesco Asia Opportunities Equity Fund E Accumulation EUR,UNK_557,MTF,Equity,XLUX,,,2018-07-10
+LU0118259661,BlackRock Global Funds - Global High Yield Bond Fund A1 EUR Hedged,UNK_558,MTF,Bond,XLUX,,,2018-01-02
+LU0127230596,NBG INTERNAT- INCOME PLUS-A,NBGINPA,MTF,Bond,XLUX,,,2018-01-02
+LU0131126574,FT - FRANKL EUR H/Y - A USD CAP,TEMHYAC LX,MTF,Equity,XLUX,,,2020-06-29
+LU0147414022,NBG INTERNAT-GLOBAL EQUITY-A,NBGGEQA LX,MTF,Equity,XLUX,,,2018-01-02
+LU0152980495,Templeton Global Bond Fund A(acc)EUR,UNK_568,MTF,Bond,XLUX,,,2018-01-02
+LU0154234636,BGF European Special Situations Fund A2 EUR,MLEUGRA,MTF,Bond,XLUX,,,2018-01-02
+LU0161942635,UBS (Lux) Key Selection SICAV - Global Equities (USD) (EUR) P-acc,UNK_570,MTF,Equity,XLUX,,,2018-01-02
+LU0162302276,Amundi Funds Pioneer Strategic Income A USD (C),UNK_1036,MTF,Other,XLUX,,,2018-01-02
+LU0164852419,HSBC Global Investment Funds - Chinese Equity EC,UNK_573,MTF,Equity,XLUX,,,2018-01-03
+LU0164858028,HSBC Global Investment Funds - Indian Equity EC,UNK_574,MTF,Equity,XLUX,,,2018-01-03
+LU0165081950,HSBC Global Investment Funds - Euroland Value EC,UNK_575,MTF,Equity,XLUX,,,2018-01-03
+LU0165091165,HSBC Global Investment Funds - Euro Credit Bond EC,UNK_576,MTF,Bond,XLUX,,,2018-01-03
+LU0165130674,HSBC Global Investment Funds - Euro Reserve Ac,UNK_1037,MTF,Bond,XLUX,,,2018-01-03
+LU0165281881,NBG INT - EUROPEAN ALLSTARS-A,NBGASTA LX,MTF,Money Market,XLUX,,,2018-01-02
+LU0170473374,FRANKLIN EU TOT RT RT-AAC,TEMTRAA LX,MTF,Money Market,XLUX,,,2020-06-23
+LU0171298648,BlackRock Global Funds - US Mid-Cap Value Fund A2 (EUR),UNK_590,MTF,Equity,XLUX,,,2020-06-19
+LU0172069584,UBS (Lux) Bond SICAV - USD Corporates (USD) P-acc,UNK_595,MTF,Bond,XLUX,,,2021-06-09
+LU0172412149,BlackRock Global Funds - Global Government Bond Fund A3 USD,UNK_598,MTF,Bond,XLUX,,,2018-01-02
+LU0172417379,BGF-US DOLLAR BND-USD A3,MLUSCUA LX,MTF,Money Market,XLUX,,,2021-02-04
+LU0175074516,PICTET-USD SHORT MT BONDS-R,PFIUSMR LX,MTF,Money Market,XLUX,,,2021-06-09
+LU0201322137,Schroder International Selection Fund Strategic Bond A Accumulation USD,UNK_602,MTF,Bond,XLUX,,,2018-01-02
+LU0205194797,Schroder International Selection Fund Global High Yield A Distribution USD MV,UNK_604,MTF,Bond,XLUX,,,2018-01-02
+LU0208853274,JPMorgan Funds - Global Natural Resources Fund A (acc) - EUR,UNK_605,MTF,Equity,XLUX,,,2018-01-02
+LU0212178916,BNP Paribas Funds Europe Small Cap Classic Capitalisation,PACI,MTF,Equity,XLUX,,,2018-01-02
+LU0214787094,Amundi Funds II - Pioneer Strategic Income A USD MGI D,UNK_1041,MTF,Other,XLUX,,,2018-01-02
+LU0243958047,Invesco Funds SICAV - Invesco Euro Corporate Bond Fund C Accumulation EUR,UNK_613,MTF,Bond,XLUX,,,2020-01-15
+LU0252499412,JPMorgan Funds - EUR Money Market VNAV Fund A (acc) - EUR,UNK_615,MTF,Money Market,XLUX,,,2018-01-02
+LU0274704161,Amundi Funds II - Emerging Markets Bond A H EUR DA,UNK_1043,MTF,Bond,XLUX,,,2018-01-02
+LU0278453476,BGF-FIXED INC GBL OP HED-A2,MLIHEA2 LX,MTF,Equity,XLUX,,,2018-01-02
+LU0280673723,Amundi Funds II - Emerging Markets Bond A H USD DA,UNK_1044,MTF,Bond,XLUX,,,2018-01-02
+LU0281576909,Amundi Funds II - Emerging Markets Bond A EUR HND,UNK_1045,MTF,Bond,XLUX,,,2018-02-05
+LU0282880003,BNP Paribas Funds Equity Russia Opportunities Classic Capitalisation EUR,UNK_1046,MTF,Equity,XLUX,,,2018-01-03
+LU0297943168,BlackRock Global Funds - Global Government Bond Fund A3 EUR Hedged,UNK_629,MTF,Bond,XLUX,,,2018-01-02
+LU0308882355,Schroder International Selection Fund Global Dividend Maximiser A1 Distribution USD Q,UNK_630,MTF,Equity,XLUX,,,2018-01-02
+LU0309035870,Pictet-Short-Term Money Market JPY R,UNK_631,MTF,Money Market,XLUX,,,2022-04-20
+LU0316493583,Templeton Asian Growth Fund A(acc)EUR-H1,UNK_632,MTF,Equity,XLUX,,,2018-01-02
+LU0329630130,Variopartner SICAV - MIV Global Medtech Fund P2 EUR,UNK_634,MTF,Equity,XLUX,,,2020-01-22
+LU0330917880,BlackRock Global Funds - Sustainable World Bond Fund A2 EUR Hedged,UNK_635,MTF,Bond,XLUX,,,2018-01-02
+LU0363630707,Amundi Funds II - Absolute Return Multi-Strategy A EUR ND,UNK_1047,MTF,Other,XLUX,,,2018-01-02
+LU0378967565,Goldman Sachs Global Currency Plus Portfolio,UNK_1048,MTF,Other,XLUX,,,2018-01-02
+LU0417441200,UBS (Lux) Bond Fund - Euro High Yield (EUR) P-mdist,UNK_642,MTF,Bond,XLUX,,,2018-01-02
+LU0425487740,Schroder International Selection Fund EURO Corporate Bond A Distribution EUR SF,UNK_644,MTF,Bond,XLUX,,,2018-01-02
+LU0430493212,JPMorgan Funds - Aggregate Bond Fund A (acc) - EUR (hedged),UNK_645,MTF,Bond,XLUX,,,2018-01-02
+LU0447610683,HSBC Portfolios - World Selection 2 AC,UNK_649,MTF,Other,XLUX,,,2018-01-03
+LU0447610766,HSBC Portfolios - World Selection 2 ACHEUR,UNK_650,MTF,Other,XLUX,,,2018-01-03
+LU0447611061,HSBC Portfolios - World Selection 3 ACHEUR,UNK_651,MTF,Other,XLUX,,,2018-01-03
+LU0454936104,Franklin Euro Short Term Money Market Fund A,UNK_1049,MTF,Money Market,XLUX,,,2018-10-22
+LU0456865749,BGF-EUR SHRT DUR BND-A2USDHD,BGFA2US,MTF,Equity,XLUX,,,2018-01-02
+LU0474967485,Pictet-Digital HR EUR,UNK_654,MTF,Equity,XLUX,,,2018-02-02
+LU0476459721,NBG INTL-DYNAM ASSET ALLOC-A,NBGFCIA LX,MTF,Balanced,XLUX,,,2018-05-29
+LU0502418741,UBS (Lux) Key Selection SICAV - Multi Strategy Alternatives (EUR) P-acc,UNK_658,MTF,Other,XLUX,,,2018-01-03
+LU0503635038,Pictet - SmartCity R dy EUR,UNK_659,MTF,Equity,XLUX,,,2018-01-02
+LU0546265769,UBS (Lux) Equity SICAV - Swiss Opportunity (CHF) P-acc,UNK_663,MTF,Equity,XLUX,,,2018-01-03
+LU0551246555,Franklin U.S. Low Duration Fund A(acc)USD,UNK_664,MTF,Bond,XLUX,,,2018-01-02
+LU0625451512,BlackRock Global Funds - Global Equity Income Fund A5G EUR Hedged,UNK_668,MTF,Equity,XLUX,,,2018-01-02
+LU0670223279,Eurobank (LF) Reserve Fund,UNK_1050,MTF,Bond,XLUX,,,2018-01-17
+LU0671501392,Schroder International Selection Fund Global Dividend Maximiser A1 Distribution EUR Hedged Q,UNK_670,MTF,Equity,XLUX,,,2018-01-02
+LU0671501806,,UNK_671,MTF,Other,XLUX,,,2018-01-02
+LU0671502010,Schroder International Selection Fund Global Inflation Linked Bond A Distribution EUR QV,UNK_672,MTF,Bond,XLUX,,,2018-01-02
+LU0694810861,Schroder International Selection Fund Global Bond A Distribution EUR Hedged Q,UNK_673,MTF,Bond,XLUX,,,2018-01-02
+LU0738912566,BlackRock Global Funds - US Dollar High Yield Bond Fund A6 USD,UNK_676,MTF,Bond,XLUX,,,2018-01-26
+LU0775052292,UBS (Lux) Equity SICAV - German High Dividend Sustainable (EUR) P-acc,UNK_677,MTF,Equity,XLUX,,,2018-01-02
+LU0784383399,BlackRock Global Funds - Global Multi-Asset Income Fund A2 EUR Hedged,UNK_680,MTF,Other,XLUX,,,2018-01-26
+LU0784384876,BlackRock Global Funds - Global Multi-Asset Income Fund A6 USD,UNK_681,MTF,Other,XLUX,,,2018-03-23
+LU0794791870,Invesco Global Equity Income Fund A EUR Hedged,UNK_1051,MTF,Equity,XLUX,,,2018-01-02
+LU0820561818,Allianz Global Investors Fund - Allianz Income and Growth AM USD,UNK_683,MTF,Other,XLUX,,,2020-12-03
+LU0823389423,BNP Paribas Funds Emerging Bonds Opportunities Classic RH EUR Capitalisation,UNK_1052,MTF,Bond,XLUX,,,2018-02-22
+LU0823407779,BNP Paribas Funds Global Convertible Classic Capitalisation,UNK_1053,MTF,Other,XLUX,,,2018-01-02
+LU0823417653,BNP Paribas Funds Sustainable Global Low Vol Equity,UNK_1054,MTF,Equity,XLUX,,,2018-01-02
+LU0823417810,BNP Paribas Funds Sustainable Global Low Vol Equity Classic Capitalisation,UNK_689,MTF,Equity,XLUX,,,2018-01-02
+LU0823421689,PARVEST DISRUPTIVE TECH-CC,GEQ4286 LX,MTF,Bond,XLUX,,,2018-05-31
+LU0823447643,BNP Paribas Funds Bond Absolute Return V350,UNK_1056,MTF,Bonds,XLUX,,,2018-01-02
+LU0825403933,BlackRock Global Funds - Global Corporate Bond Fund A5 USD,UNK_695,MTF,Bond,XLUX,,,2018-01-02
+LU0849399786,Schroder International Selection Fund EURO High Yield A Accumulation,UNK_697,MTF,Bond,XLUX,,,2018-01-02
+LU0849400543,Schroder International Selection Fund EURO High Yield A Distribution EUR QV,UNK_698,MTF,Bond,XLUX,,,2018-01-02
+LU0941349275,PICTET-MULTI ASSET GL OP-REU,PCMAGOR LX,MTF,Bond,XLUX,,,2018-01-02
+LU0954602917,Pictet-EUR Short Term Corporate Bonds R,UNK_702,MTF,Bond,XLUX,,,2018-01-02
+LU0954603725,Pictet-EUR Short Term Corporate Bonds HR USD,UNK_1059,MTF,Bond,XLUX,,,2018-03-08
+LU0973708182,BlackRock Global Funds - Fixed Income Global Opportunities Fund A4 EUR Hedged,UNK_705,MTF,Bond,XLUX,,,2018-01-02
+LU0995120242,SISF-EURO CR CO-AEURD SF,SIECAED LX,MTF,Money Market,XLUX,,,2021-02-09
+LU1003076772,BlackRock Global Funds - European Equity Income Fund A5G USD Hedged,UNK_707,MTF,Equity,XLUX,,,2018-01-02
+LU1046235732,SCHRODER INT-STR CRD-A ACC,SSCRCAA LX,MTF,Money Market,XLUX,,,2021-12-28
+LU1080341495,BNP Paribas Flexi I US Mortgage Classic H EUR Capitalisation,UNK_710,MTF,Bond,XLUX,,,2018-01-02
+LU1093756168,Franklin Templeton Investment Funds-Franklin K2 Alternative Strategies Fund A(acc)USD,UNK_712,MTF,Other,XLUX,,,2018-01-02
+LU1093756242,Franklin K2 Alternative Strategies Fund A(acc)EUR-H1,UNK_713,MTF,Other,XLUX,,,2018-01-02
+LU1116037828,PICTET-MULTI ASST GL OP-RDME,PMGRDME LX,MTF,Bond,XLUX,,,2018-01-02
+LU1133085917,BlackRock Global Funds - Global Multi-Asset Income Fund A6 EUR Hedged,UNK_715,MTF,Other,XLUX,,,2018-01-02
+LU1165135440,PARVEST AQUA-CLASSIC,PAQUACL LX,MTF,Equity,XLUX,,,2018-01-02
+LU1279333832,Pictet - Robotics R USD,UNK_718,MTF,Equity,XLUX,,,2018-01-02
+LU1279335027,Pictet - Robotics HR EUR,UNK_719,MTF,Equity,XLUX,,,2018-01-02
+LU1389986909,NBG International Funds FCP/Money Market Sub Fund Class A,UNK_1061,MTF,Money Market,XLUX,,,2018-01-02
+LU1458427942,BNP PARIBAS FUNDS US VALUE MULTI FACTOR(PARVEST EQ,PAEUCLE LX,MTF,Equity,XLUX,,,2019-09-13
+LU1467572357,UBS (Lux) Bond Fund - Global Flexible (CAD hedged) P-acc,UNK_725,MTF,Bond,XLUX,,,2018-01-02
+LU1484486714,Parworld Lyra Classic EUR Acc,UNK_1062,MTF,Other,XLUX,,,2018-02-28
+LU1514167136,SCHRODER ISF-GL CR IN-AIUSD,SCGCAIU LX,MTF,Equity,XLUX,,,2018-03-16
+LU1514167722,Schroder International Selection Fund Global Credit Income A Accumulation EUR Hedged,UNK_728,MTF,Bond,XLUX,,,2018-07-18
+LU1514168027,SCHRODER IS-GL CR IN-AIEURH,SCGAIEH LX,MTF,Equity,XLUX,,,2018-04-30
+LU1620156999,BNP Paribas Funds - Green Bond Classic CAPITALISAT,PARGBCC LX Equity,MTF,Money Market,XLUX,,,2021-01-26
+LU1679117579,UBS LX EQ - GBL IMP USD -P EUR,UBSGIPE LX,MTF,Equity,XLUX,,,2019-02-20
+LU1737068558,Schroder International Selection Fund Global Credit Income A Accumulation USD,UNK_736,MTF,Bond,XLUX,,,2019-02-20
+LU1775951525,Invesco Funds - Invesco Asian Equity Fund A Annual Distribution USD,UNK_737,MTF,Equity,XLUX,,,2018-09-10
+LU1819948784,BNP PARIBAS-SUS  ENH BD 12M -CL A,BNSEBCA LX,MTF,Structured,XLUX,,,2019-10-16
+LU1882473264,Amundi Funds - Euro Government Bond A2 EUR (C),UNK_1063,MTF,Bond,XLUX,,,2022-04-01
+LU1883311653,Amundi Funds - European Equity Sustainable Income A2 EUR SATI D,UNK_1064,MTF,Equity,XLUX,,,2019-06-12
+LU1883321298,Amundi Funds - Global Equity Sustainable Income A2 EUR QTI (D),UNK_1065,MTF,Equity,XLUX,,,2019-06-11
+LU1883324391,Amundi Funds - Global Equity Sustainable Income R2 EUR MTI (D),UNK_1066,MTF,Equity,XLUX,,,2020-01-16
+LU1883854272,AMUNDI FDS-PION. US EQ.F.GR-A EUR HG,APUFAEH LX,MTF,Equity,XLUX,,,2020-01-16
+LU1956159856,BNP Paribas Funds - Sustainable Multi-Asset Stabil,BPSMCED LX Equity,MTF,Balanced,XLUX,,,2021-06-03
+LU2343327081,SISF-CARBON NEUT CRE-A EUR A,SICNAEA LX,MTF,Money Market,XLUX,,,2021-07-29
+USL34664AA71,FAGE International,UNK_888,Bond,Corporate,XLUX,Corporate,Food and Beverage Production,2018-11-16
+XS0070553820,European Investment Bank (EIB),UNK_895,Bond,Corporate,XLUX,Corporate,Banks,2018-01-02
+XS0196448129,European Investment Bank (EIB),UNK_897,Bond,Corporate,XLUX,Corporate,Banks,2018-11-16
+XS0207764712,Banque Federative du Credit Mutuel,UNK_899,Bond,Corporate,XLUX,Corporate,Banks,2018-01-01
+XS0210976329,KBC Bank,UNK_900,Bond,Corporate,XLUX,Corporate,Banks,2018-01-01
+XS0832628423,European Investment Bank (EIB),UNK_912,Bond,Corporate,XLUX,Corporate,Banks,2018-11-19
+XS1497606365,Telecom Italia (TIM),UNK_955,Bond,Corporate,XLUX,Corporate,Communication Services,2018-01-02
+XS1551678409,Telecom Italia (TIM),UNK_961,Bond,Corporate,XLUX,Corporate,Communication Services,2018-01-02
+XS1685702794,Intralot SA,UNK_974,Bond,Corporate,XLUX,Corporate,Gambling business,2018-01-02
+XS1691349523,Goldman Sachs,UNK_976,Bond,Corporate,XLUX,Corporate,Banks,2018-01-02
+XS1762980065,Alpha Bank,UNK_983,Bond,Corporate,XLUX,Corporate,Banks,2018-01-29
+XS2010038144,"MYTILINEOS FINANCIAL MYTIL 2,50 12/01/24","MYTIL 2,50 12/01/24",Bond,Corporate,XLUX,Corporate,Other Sectors,2019-11-26
+XS2018638648,Piraeus Bank,UNK_996,Bond,Corporate,XLUX,Corporate,Banks,2019-06-21
+XS2028846363,National Bank of Greece,UNK_997,Bond,Corporate,XLUX,Corporate,Banks,2019-07-15
+XS2055106137,OTE PLC,UNK_998,Bond,Corporate,XLUX,Corporate,Communication Services,2019-09-19
+XS2060691719,HELLENIC PETROLEUM FINANCE PLC ELPEGA 2 10/04/24,ELPEGA 2 10/04/24,Bond,Corporate,XLUX,Corporate,Oil and Gas Extraction and Refining,2019-10-01
+XS2111230285,Alpha Services and Holdings,UNK_1004,Bond,Corporate,XLUX,Corporate,Banks,2020-02-10
+XS2114234714,Frigoglass,UNK_1005,Bond,Corporate,XLUX,Corporate,Miscellaneous Machinery and Industrial Equipment,2020-02-11
+XS2121408996,Piraeus Bank,UNK_1006,Bond,Corporate,XLUX,Corporate,Banks,2020-02-14
+XS2237982769,National Bank of Greece,UNK_1008,Bond,Corporate,XLUX,Corporate,Banks,2020-10-05
+XS2307437629,Alpha Services and Holdings,UNK_1009,Bond,Corporate,XLUX,Corporate,Banks,2021-03-08
+XS2337604479,Mytilineos,UNK_13,Bond,Corporate,XLUX,Corporate,Other Sectors,2021-04-26
+XS2373771174,Intralot Inc.,UNK_1015,Bond,Corporate,XLUX,Corporate,Gambling business,2021-08-12
+ES00000121G2,Spain,UNK_77,Bond,Government,XMAD,Sovereign,,2019-05-02
+ES0000012E85,Spain,UNK_82,Bond,Government,XMAD,Sovereign,,2019-05-31
+ES0000012F43,Spain,UNK_83,Bond,Government,XMAD,Sovereign,,2019-09-09
+ES0173516115,Repsol SA,UNK_88,Stock,,XMAD,Energy,Oil & Gas Integrated,2020-07-22
+CA037833CY47,Apple,UNK_19,Bond,Corporate,XMOD,Corporate,IT equipment,2018-11-16
+CA580135CD12,McDonalds,UNK_20,Bond,Corporate,XMOD,Corporate,Restaurants and Bars,2018-03-06
+AU3CB0228823,European Investment Bank (EIB),UNK_2,Bond,Corporate,XMUN,Corporate,Banks,2021-01-27
+US298785HM16,European Investment Bank (EIB),UNK_799,Bond,Corporate,XMUN,Corporate,Banks,2019-05-17
+US298785HV15,European Investment Bank (EIB),UNK_801,Bond,Corporate,XMUN,Corporate,Banks,2019-03-21
+US298785JH03,European Investment Bank (EIB),UNK_803,Bond,Corporate,XMUN,Corporate,Banks,2021-01-29
+US459058FT50,IBRD,UNK_816,Bond,Corporate,XMUN,Corporate,Banks,2019-05-20
+USC10602AR84,Bombardier,UNK_884,Bond,Corporate,XMUN,Corporate,Aircraft Production and Defense,2018-11-16
+XS0989155089,Coca-Cola European Partners US,UNK_920,Bond,Corporate,XMUN,Corporate,Food and Beverage Production,2018-11-16
+XS1028955844,Glencore International AG,UNK_921,Bond,Corporate,XMUN,Corporate,Wholesale Trade,2018-01-02
+XS1980857319,European Investment Bank (EIB),UNK_993,Bond,Corporate,XMUN,Corporate,Banks,2019-05-07
+US90184L1026,Twitter Inc.,TWTR,Stock,,XNAS,,,2018-01-02
+AU3SG0001985,Western Australian Treasury Corporation (WATC),UNK_8,Bond,Corporate,XNEC,Corporate,Government Agencies,2020-09-17
+AU3SG0002199,Western Australian Treasury Corporation (WATC),UNK_9,Bond,Corporate,XNEC,Corporate,Government Agencies,2020-09-17
+MHY8162K2046,Star Bulk Carriers Corp,SBLK,Stock,,XNGS,Industrials,Marine Shipping,2018-01-02
+US0378331005,Apple Inc,AAPL,Stock,,XNGS,Technology,Consumer Electronics,2020-02-14
+US5949181045,Microsoft Corp,MSFT,Stock,,XNGS,Technology,Software - Infrastructure,2021-12-10
+US60770K1079,Moderna Inc,MRNA,Stock,,XNGS,Healthcare,Biotechnology,2020-03-04
+US92556V1061,Viatris Inc,VIA,Stock,,XNGS,Healthcare,Drug Manufacturers - Specialty & Generic,2020-11-18
+XS2079716853,Apple,UNK_1001,Bond,Corporate,XNGS,Corporate,IT equipment,2019-11-12
+US46090E1038,,UNK_818,MTF,Other,XNMS,,,2018-06-05
+BMG375851091,Gaslog Ltd.,GLOG,Stock,,XNYS,,,2018-01-02
+MHY1771G1109,Costamare Inc,UNK_749,Stock,,XNYS,Industrials,Marine Shipping,2018-01-02
+MHY1771G1281,Costamare Inc,UNK_750,Stock,,XNYS,Industrials,Marine Shipping,2018-01-02
+US00206R1023,AT&T Inc,T,Stock,,XNYS,Communication Services,Telecom Services,2018-01-02
+US00214Q1040,,UNK_761,MTF,Other,XNYS,,,2021-01-27
+US002824BA72,Abbott Laboratories,UNK_762,Bond,Corporate,XNYS,Corporate,Pharmaceutical Preparation and Biotechnology,2018-11-19
+US0032601066,,UNK_763,MTF,Other,XNYS,,,2018-10-02
+US02079K3059,Alphabet Inc,GOOGL,Stock,,XNYS,Communication Services,Internet Content & Information,2018-01-02
+US0231351067,Amazon.com Inc,UNK_764,Stock,,XNYS,Consumer Cyclical,Internet Retail,2018-01-02
+US03512TAC53,AngloGold Ashanti Holdings,UNK_765,Bond,Corporate,XNYS,Corporate,Precious Metal Mining,2018-11-16
+US0378331005,Apple Inc,AAPL,Stock,,XNYS,Technology,Consumer Electronics,2018-01-02
+US037833AK68,Apple,UNK_766,Bond,Corporate,XNYS,Corporate,IT equipment,2018-01-02
+US0556221044,BP PLC,UNK_770,Stock,,XNYS,Energy,Oil & Gas Integrated,2018-01-02
+US0970231058,Boeing Co,BCO,Stock,,XNYS,Industrials,Aerospace & Defense,2018-01-02
+US1266501006,CVS Health Corp,CVS,Stock,,XNYS,Healthcare,Healthcare Plans,2018-01-02
+US13057Q2066,California Resource,CRCQQ,Stock,,XNYS,,,2018-01-02
+US1491231015,Caterpillar Inc,CAT,Stock,,XNYS,Industrials,Farm & Heavy Construction Machinery,2018-01-02
+US17275R1023,Cisco Systems Inc,CSCO,Stock,,XNYS,Technology,Communication Equipment,2018-01-02
+US1729674242,Citygroup Inc.,C,Stock,,XNYS,,,2018-01-02
+US172967GL98,Citigroup,UNK_776,Bond,Corporate,XNYS,Corporate,Banks,2018-11-16
+US191216CE82,The Coca-Cola Company,UNK_777,Bond,Corporate,XNYS,Corporate,Food and Beverage Production,2018-11-19
+US22539T1833,VelocityShares 3x Long Natural Gas ETN linked to the S&P GSCI Natural Gas Index ER,UGAZF:PKC:USD,MTF,Other,XNYS,,,2019-12-24
+US22539T2179,VelocitySharesTM 3x Long Natural Gas ETNs linked to the S&P GSCI Natural Gas Index ER,UNK_1070,MTF,Other,XNYS,,,2018-01-02
+US25243YAU38,Diageo,UNK_782,Bond,Corporate,XNYS,Corporate,Food and Beverage Production,2018-11-16
+US25271CAP77,Diamond Offshore Drilling,UNK_783,Bond,Corporate,XNYS,Corporate,Equipment and Services for Oil and Gas Extraction,2018-11-16
+US2546871060,The Walt Disney Co,DIS,Stock,,XNYS,Communication Services,Entertainment,2018-01-02
+US26922V1017,abrdn Physical Platinum Shares ETF,PDLT,MTF,Other,XNYS,,,2018-01-02
+US26924G7714,,UNK_788,MTF,Other,XNYS,,,2020-09-24
+US30231G1022,Exxon Mobil Corp,XOM,Stock,,XNYS,Energy,Oil & Gas Integrated,2018-01-02
+US30231GAC69,Exxon Mobil,UNK_805,Bond,Corporate,XNYS,Corporate,Oil and Gas Extraction and Refining,2018-11-16
+US30303M1027,Meta Platforms Inc,FB,Stock,,XNYS,Communication Services,Internet Content & Information,2018-01-02
+US3696043013,General Electric Co,GE,Stock,,XNYS,Industrials,Specialty Industrial Machinery,2021-08-05
+US38141G1040,The Goldman Sachs Group Inc,UNK_807,Stock,,XNYS,Financial Services,Capital Markets,2018-01-02
+US38141GWC40,Goldman Sachs,UNK_808,Bond,Corporate,XNYS,Corporate,Banks,2018-11-16
+US3814305450,,UNK_809,MTF,Other,XNYS,,,2018-06-19
+US40428HPR74,HSBC USA,UNK_812,Bond,Corporate,XNYS,Corporate,Banks,2018-11-16
+US42824CAG42,Hewlett Packard Enterprise,UNK_814,Bond,Corporate,XNYS,Corporate,IT equipment,2018-11-16
+US42824CAW91,Hewlett Packard Enterprise,UNK_815,Bond,Corporate,XNYS,Corporate,IT equipment,2018-01-02
+US4592001014,International Business Machines Corp,IBM,Stock,,XNYS,Technology,Information Technology Services,2018-01-02
+US4642863504,,UNK_819,MTF,Other,XNYS,,,2021-06-24
+US4642864007,,UNK_820,MTF,Other,XNYS,,,2018-01-02
+US4642871762,,UNK_821,MTF,Other,XNYS,,,2018-01-02
+US4642876555,,UNK_822,MTF,Other,XNYS,,,2018-01-02
+US4642876894,,UNK_823,MTF,Other,XNYS,,,2018-01-02
+US4642882579,,UNK_824,MTF,Other,XNYS,,,2018-01-02
+US46429B2676,,UNK_825,MTF,Other,XNYS,,,2018-04-06
+US46625H1005,Jpmorgan Chase & Co,CMC,Stock,,XNYS,,,2018-01-02
+US47215P1066,JD.com Inc,JD,Stock,,XNYS,,,2018-01-02
+US4781601046,Johnson & Johnson,JNJ,Stock,,XNYS,Healthcare,Drug Manufacturers - General,2018-01-02
+US478160BS27,Johnson&Johnson,UNK_826,Bond,Corporate,XNYS,Corporate,Pharmaceutical Preparation and Biotechnology,2018-11-16
+US5007674055,,UNK_827,MTF,Other,XNYS,,,2018-09-28
+US5949181045,Microsoft Corp,MSFT,Stock,,XNYS,Technology,Software - Infrastructure,2018-01-02
+US5951121038,Micron Technology Inc,MU,Stock,,XNYS,Technology,Semiconductors,2018-01-02
+US61166WAW10,Monsanto,UNK_831,Bond,Corporate,XNYS,Corporate,Chemical and Petrochemical Industry,2018-11-16
+US62914V1061,NIO Inc,UNK_832,Stock,,XNYS,Consumer Cyclical,Auto Manufacturers,2018-09-14
+US64110L1061,Netflix Inc,NFLX,Stock,,XNYS,Communication Services,Entertainment,2018-01-02
+US65504LAP22,Noble Corp,UNK_833,Bond,Corporate,XNYS,Corporate,Equipment and Services for Oil and Gas Extraction,2018-11-16
+US71647NAA72,Petrobras,UNK_834,Bond,Corporate,XNYS,Corporate,Oil and Gas Extraction and Refining,2018-11-16
+US71647NAV10,Petrobras,UNK_836,Bond,Corporate,XNYS,Corporate,Oil and Gas Extraction and Refining,2018-11-16
+US71647NAY58,Petrobras,UNK_837,Bond,Corporate,XNYS,Corporate,Oil and Gas Extraction and Refining,2018-11-16
+US71647NAZ24,Petrobras,UNK_838,Bond,Corporate,XNYS,Corporate,Oil and Gas Extraction and Refining,2019-03-20
+US71654V4086,Petroleo Brasileiro SA Petrobras,PBR,Stock,,XNYS,Energy,Oil & Gas Integrated,2018-01-02
+US7170811035,Pfizer Inc,PFE,Stock,,XNYS,Healthcare,Drug Manufacturers - General,2018-01-02
+US72201R7750,,UNK_843,MTF,Other,XNYS,,,2018-01-02
+US73935A1043,Invesco QQQ Trust Series 1,QQQ,MTF,Equity,XNYS,,,2018-01-02
+US74347X8496,,UNK_846,MTF,Other,XNYS,,,2020-11-05
+US78462F1030,,UNK_847,MTF,Other,XNYS,,,2018-01-02
+US78467X1090,SPDR® Dow Jones Industrial Average ETF Trust (EUR) | DIA,UNK_848,MTF,Other,XNYS,,,2018-01-02
+US78468R6633,,UNK_849,MTF,Other,XNYS,,,2018-01-02
+US81369Y5069,,UNK_850,MTF,Other,XNYS,,,2018-01-02
+US822582BX94,Shell,UNK_851,Bond,Corporate,XNYS,Corporate,Oil and Gas Extraction and Refining,2018-11-16
+US86562MAM29,Sumitomo Mitsui FG,UNK_852,Bond,Corporate,XNYS,Corporate,Holding Companies,2018-11-16
+US87264AAU97,T-Mobile USA,UNK_853,Bond,Corporate,XNYS,Corporate,Communication Services,2018-03-14
+US88166JAA16,Teva Pharmaceutical Industries,UNK_854,Bond,Corporate,XNYS,Corporate,Pharmaceutical Preparation and Biotechnology,2019-06-10
+US89114QBL14,"TORONTO-DOMINION BANK TD 1,8 07/13/21","TD 1,8 07/13/21",Bond,Corporate,XNYS,Corporate,Banks,2018-11-16
+US912810RK60,USA,UNK_862,Bond,Government,XNYS,Sovereign,,2018-11-19
+US9128286C90,USA,UNK_863,Bond,Government,XNYS,Sovereign,,2019-02-26
+US91282CFE66,"US TREASURY N/B T 3,125 08/15/25","T 3,125 08/15/25",Bond,Government,XNYS,Sovereign,,2022-09-30
+US91831AAC53,Boausch Health Companies 6.125% 15/05/2025,BHCCN 6.125 04/15/25 REGS,Bond,Corporate,XNYS,,,2018-02-05
+US92189F1066,,UNK_873,MTF,Other,XNYS,,,2018-01-02
+US9219378356,,UNK_875,MTF,Other,XNYS,,,2018-01-02
+US9229085538,,UNK_876,MTF,Other,XNYS,,,2018-01-02
+US92766K1060,Virgin Galactic Holdings Inc,SPCE,Stock,,XNYS,Industrials,Aerospace & Defense,2019-10-30
+US92826C8394,Visa Inc,V,Stock,,XNYS,Financial Services,Credit Services,2018-01-02
+US9497461015,Wells Fargo & Co,UNK_880,Stock,,XNYS,Financial Services,Banks - Diversified,2018-01-02
+US949746SH57,Wells Fargo,UNK_881,Bond,Corporate,XNYS,Corporate,Banks,2018-11-16
+US94974BGH78,Wells Fargo,UNK_882,Bond,Corporate,XNYS,Corporate,Banks,2018-11-16
+US9581021055,Western Digital Corp,WDC,Stock,,XNYS,Technology,Computer Hardware,2018-01-02
+US97717W8516,,UNK_883,MTF,Other,XNYS,,,2018-09-27
+NO0010757925,Norway,UNK_754,Bond,Government,XOSL,Sovereign,,2018-01-01
+NO0010844079,Norway,UNK_755,Bond,Government,XOSL,Sovereign,,2019-11-04
+FR0000120271,TotalEnergies SE,TTE,Stock,,XPAR,Energy,Oil & Gas Integrated,2018-01-02
+FR0000120578,Sanofi SA,SAN,Stock,,XPAR,Healthcare,Drug Manufacturers - General,2018-01-02
+FR0000120628,AXA SA,CS,Stock,,XPAR,Financial Services,Insurance - Diversified,2018-01-02
+FR0000125486,Vinci SA,UNK_97,Stock,,XPAR,Industrials,Engineering & Construction,2018-01-02
+FR0010344630,Lyxor STOXX Europe 600 Automobiles & Parts UCITS ETF EUR,UNK_1027,MTF,Other,XPAR,,,2018-01-02
+FR0010344903,Lyxor STOXX Europe 600 Insurance UCITS ETF EUR,UNK_1028,MTF,Other,XPAR,,,2018-06-18
+FR0011020965,Amundi ETF MSCI Emerging Markets Asia UCITS ETF EUR,UNK_1029,MTF,Other,XPAR,,,2018-01-02
+FR0011697010,Electricite de France (EDF),UNK_109,Bond,Corporate,XPAR,Corporate,Power,2018-11-16
+FR0013176336,BNP Paribas Sustainable Bond Euro Short Term Classic C,UNK_1030,MTF,Bond,XPAR,,,2018-01-01
+FR0013176526,Valeo SA,UNK_112,Stock,,XPAR,Consumer Cyclical,Auto Parts,2018-01-02
+FR0013220902,Agence Francaise de Developpement,UNK_113,Bond,Corporate,XPAR,Corporate,Banks,2019-04-08
+FR0013232105,Agence Francaise de Developpement,UNK_114,Bond,Corporate,XPAR,Corporate,Banks,2019-01-11
+FR0013480613,France,UNK_117,Bond,Government,XPAR,Sovereign,,2020-01-30
+FR0014003Y09,Macif,UNK_118,Bond,Corporate,XPAR,Corporate,Insurance and Reinsurance,2022-07-01
+LU1681040900,Amundi Index Solutions - Amundi Floating Rate USD Corporate ESG - UCITS ETF DR - USD (C) | AFLT,UNK_734,MTF,Bond,XPAR,,,2018-11-02
+NL0000235190,Airbus SE,AIR,Stock,,XPAR,Industrials,Aerospace & Defense,2018-01-02
+NL00150001Q9,Stellantis NV,STLA,Stock,,XPAR,Consumer Cyclical,Auto Manufacturers,2021-01-19
+XS0214965963,Telecom Italia (TIM),UNK_902,Bond,Corporate,XPAR,Corporate,Communication Services,2019-04-09
+US298785HP47,European Investment Bank (EIB),UNK_800,Bond,Corporate,XSTU,Corporate,Banks,2018-06-20
+XS1068872925,European Investment Bank (EIB),UNK_923,Bond,Corporate,XSTU,Corporate,Banks,2018-11-16
+XS1207449684,"EUROPEAN INVESTMENT BANK EUR 0,125 04/15/25","EIB 0,125 04/15/25",Bond,Corporate,XSTU,Corporate,Banks,2018-11-16
+XS1260085037,European Investment Bank (EIB),UNK_934,Bond,Corporate,XSTU,Corporate,Banks,2018-01-02
+XS1280834992,European Investment Bank (EIB),UNK_935,Bond,Corporate,XSTU,Corporate,Banks,2018-11-16
+XS1288040055,"EUROPEAN INVESTEMENT BANK 0,25 10/15/20","EIB 0,25 10/15/20",Bond,Corporate,XSTU,Corporate,Banks,2018-11-16
+XS1361554584,European Investment Bank (EIB),UNK_943,Bond,Corporate,XSTU,Corporate,Banks,2018-12-17
+XS1394055872,European Investment Bank (EIB),UNK_944,Bond,Corporate,XSTU,Corporate,Banks,2018-11-16
+XS1791485011,European Investment Bank (EIB),UNK_985,Bond,Corporate,XSTU,Corporate,Banks,2019-02-05
+XS1909184753,Turkey,UNK_991,Bond,Government,XSTU,Sovereign,,2019-03-29
+CH0106027144,UBS ETF (CH) – Gold (EUR) hedged (EUR) A-dis | AUEUAH,UNK_21,MTF,Other,XSWX,,,2020-07-14
+GRC1441197B3,ATTICA HOLDINGS S.A.,ΑΤΤΙΚΑΟ1,Bond,Corporate,EBB,Corporate,Marine Transportation,2019-07-22
+GRC1451184D4,"GEK TERNA HOLDING, REAL ESTATE, CONSTRUCTION S.A.",ΓΕΚΤΕΡΝΑΟ1,Bond,Corporate,EBB,Corporate,Miscellaneous Construction,2018-03-27
+GRC2451227D9,LAMDA DEVELOPMENT SA,ΛΑΜΔΑΟ2,Bond,Corporate,EBB,Corporate,Miscellaneous Construction,2022-07-06
+GRC281121BD8,ELVALHALCOR HELLENIC COPPER AND ALUMINIUM INDUSTRY S.A.,ΕΛΧΑΟ1,Bond,Corporate,EBB,Corporate,Non-Ferrous Metals,2021-11-10
+GRC419120AD7,GREEK ORGANISATION OF FOOTBALL PROGNOSTICS S.A.,ΟΠΑΠΟ2,Bond,Corporate,EBB,Corporate,Hotels and Lodging,2020-10-19
+GRC4261213D5,MOTOR OIL HELLAS CORINTH REFINERIES SA,ΜΟΗΟ1,Bond,Corporate,EBB,Corporate,Oil and Gas Extraction and Refining,2021-03-17
+GRC4951193D4,AEGEAN AIRLINES S.A.,ΑΡΑΙΓΟ1,Bond,Corporate,EBB,Corporate,Air Transportation,2019-03-04
+GRC4971221B3,PREMIA PROPERTIES SA,ΠΡΕΜΙΑΟ1,Bond,Corporate,EBB,Corporate,Domestic and Commercial Construction,2022-01-19
+GRC5091217D9,PRODEA R.E.I.C. S.A.,ΠΡΟΝΤΕΑΟ1,Bond,Corporate,EBB,Corporate,Real Estate Investment and Services,2021-07-14
+GRC5211214B5,COSTAMARE PARTICIPATIONS PLC,CMPB1,Bond,Corporate,EBB,Corporate,Other Financial Institutions,2021-05-19
+GRC813119AD1,TERNA ENERGY FINANCE S.A.,ΤΕΝΕΡΓΧΟ2,Bond,Corporate,EBB,Corporate,Power,2019-10-11
+GRC8161185B1,CORAL A.E. OIL AND CHEMICALS COMPANY,ΚΟΡΑΛΟ1,Bond,Corporate,EBB,Corporate,Oil and Gas Extraction and Refining,2018-05-07
+GRC8171186B7,B&F COMMERCIAL & GARMENT INDUSTRIES S.A.,ΒΚΑΙΦΟ1,Bond,Corporate,EBB,Corporate,Miscellaneous Wholesale and Retail Trade,2018-06-20
+GRC8231227D3,CPLP SHIPPING HOLDINGS PLC,CPLPB2,Bond,Corporate,EBB,Corporate,Marine Transportation,2022-07-19
+GRS498003003,EPSILON NET S.A. (CR),ΕΠΣΙΛ,Stock,,EBB,Technology,Software - Application,2020-07-07
+GRS520003005,CNL CAPITAL EKES-AIFM,CNLCAP,Stock,,EBB,Financial Services,Asset Management,2018-07-23
+GRS525003000,DIMAND SOCIETE ANONYME DEVELOPMENT AND EXPLOITATION OF REAL ESTATE AND CONSTRUCTIONS SERVICES AND HOLDING,DIMAND,Stock,,EBB,Real Estate,Real Estate - Development,2022-06-29
