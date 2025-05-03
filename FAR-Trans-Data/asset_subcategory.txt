@@ -1,0 +1,38 @@
+Asset Subcategories by Category:
+----------------------------------------
+
+MTF:
+  - Balanced
+  - Bond
+  - Bonds
+  - Equity
+  - Money Market
+  - Other
+  - Structured
+
+Stock:
+  - Large Cap
+
+Bond:
+  - Corporate
+  - Government
+
+
+Asset Counts by Category and Subcategory:
+----------------------------------------
+
+MTF:
+  - Balanced: 8 assets
+  - Bond: 108 assets
+  - Bonds: 1 assets
+  - Equity: 107 assets
+  - Money Market: 19 assets
+  - Other: 73 assets
+  - Structured: 2 assets
+
+Stock:
+  - Large Cap: 24 assets
+
+Bond:
+  - Corporate: 170 assets
+  - Government: 55 assets

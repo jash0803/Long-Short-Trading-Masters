@@ -63,111 +63,123 @@ def matrix_factorization(rating_matrix, n_components=5):
 ########################################
 def content_based_scores(customer_id, rating_df, asset_df, limit_prices_df):
     """
-    Create asset feature vectors from:
-      - assetCategory and assetSubCategory (one-hot encoded)
-      - Profitability from limit_prices (normalized)
-    For a given customer, construct a profile by averaging the features of assets they bought.
-    Then compute cosine similarity between that profile and each asset feature.
+    Content-based filtering using:
+      - Cleaned and grouped assetCategory and assetSubCategory (one-hot)
+      - Profitability from limit_prices
     """
-    # Merge asset info with profitability info from limit_prices
+
+    # Step 1: Clean and prepare asset features
     asset_features = asset_df[['ISIN', 'assetCategory', 'assetSubCategory']].copy()
-    
-    # Merge profitability – note: not all assets may have limit price records.
-    asset_features = asset_features.merge(limit_prices_df[['ISIN', 'profitability']], on='ISIN', how='left')
+
+    # Merge MTF subcategory 'Bonds' into 'Bond'
+    asset_features['assetSubCategory'] = asset_features['assetSubCategory'].replace({'Bonds': 'Bond'})
+
+    # Merge limit_prices for profitability
+    asset_features = asset_features.merge(
+        limit_prices_df[['ISIN', 'profitability']], on='ISIN', how='left'
+    )
+    # Fill missing profitability with median
     asset_features['profitability'] = asset_features['profitability'].fillna(asset_features['profitability'].median())
-    
-    # One-hot encode assetCategory and assetSubCategory
-    cat_dummies = pd.get_dummies(asset_features['assetCategory'], prefix="cat")
-    sub_dummies = pd.get_dummies(asset_features['assetSubCategory'], prefix="sub")
-    
-    asset_feat = pd.concat([asset_features[['ISIN', 'profitability']], cat_dummies, sub_dummies], axis=1)
+
+    # Group rare subcategories (<10 assets) into 'Other'
+    subcat_counts = asset_features['assetSubCategory'].value_counts()
+    rare_subcats = subcat_counts[subcat_counts < 10].index
+    asset_features['assetSubCategory'] = asset_features['assetSubCategory'].replace(rare_subcats, 'Other')
+
+    # One-hot encode
+    cat_dummies = pd.get_dummies(asset_features['assetCategory'], prefix='cat')
+    subcat_dummies = pd.get_dummies(asset_features['assetSubCategory'], prefix='sub')
+
+    # Combine features
+    asset_feat = pd.concat([asset_features[['ISIN', 'profitability']], cat_dummies, subcat_dummies], axis=1)
     asset_feat.set_index("ISIN", inplace=True)
-    
-    # Normalize the profitability column to [0,1]
-    asset_feat['profitability_norm'] = (asset_feat['profitability'] - asset_feat['profitability'].min()) / \
-                                       (asset_feat['profitability'].max() - asset_feat['profitability'].min())
-    asset_feat.drop(columns=['profitability'], inplace=True)
-    
-    # Build the customer profile: average features of assets they bought
+
+    # Step 2: Build user profile
     cust_assets = rating_df[rating_df['customerID'] == customer_id]['ISIN']
-    
-    if len(cust_assets) > 0 and any(cust_assets.isin(asset_feat.index)):
+    cust_assets = cust_assets[cust_assets.isin(asset_feat.index)]  # Ensure valid ISINs
+
+    if len(cust_assets) > 0:
         cust_vector = asset_feat.loc[cust_assets].mean(axis=0).values.reshape(1, -1)
         sim_scores = cosine_similarity(cust_vector, asset_feat)[0]
         content_score = pd.Series(sim_scores, index=asset_feat.index)
     else:
-        # No prior transaction => use neutral score (e.g., 0.5)
+        # Cold start: assign neutral score
         content_score = pd.Series(0.5, index=asset_feat.index)
     return content_score
 
 ########################################
 # 4. DEMOGRAPHIC-BASED COMPONENT
 ########################################
-def demographic_score(customer_id, customer_df, asset_df, limit_prices_df, alpha=0.5):
+def demographic_score(customer_id, customer_df, asset_df):
     """
-    Computes a demographic score for each asset based on:
-      - match between customer's risk level and asset category
-      - how close asset's profitability is to the ideal range for that risk level
-
-    Args:
-        customer_id (str): ID of the customer
-        customer_df (DataFrame): customer information
-        asset_df (DataFrame): asset metadata
-        limit_prices_df (DataFrame): asset profitabilities
-        alpha (float): weight between category match and profitability match
-
-    Returns:
-        pd.Series: scores indexed by ISIN
+    Returns a score for each asset based on how well the assetCategory aligns with the customer's
+    riskLevel and investmentCapacity.
     """
-
-    # 1. Get customer's latest risk level
-    cust = customer_df[customer_df.customerID == customer_id]
-    if cust.empty:
-        risk = "Balanced"
-    else:
-        risk = cust.sort_values("timestamp", ascending=True).iloc[-1]["riskLevel"]
-
-    # 2. Define preferred asset categories for each risk type
-    RISK_CATEGORY_PREF = {
-        "Conservative": ["Bond", "Money Market"],
-        "Predicted_Conservative": ["Bond", "Money Market"],
-        "Income": ["Bond", "Balanced"],
-        "Predicted_Income": ["Bond", "Balanced"],
-        "Balanced": ["Balanced", "Equity"],
-        "Predicted_Balanced": ["Balanced", "Equity"],
-        "Aggressive": ["Equity"],
-        "Predicted_Aggressive": ["Equity"],
+    # Simplify predicted labels to their base forms
+    def normalize_label(label):
+        if pd.isna(label) or label == "Not_Available":
+            return None
+        return label.replace("Predicted_", "")
+    
+    # Mappings to numeric values
+    risk_map = {
+        "Conservative": 1, "Income": 2, "Balanced": 3, "Aggressive": 4
     }
-    preferred_cats = RISK_CATEGORY_PREF.get(risk, ["Balanced", "Equity"])
 
-    # 3. Define profitability range for each risk level
-    PROFIT_RANGES = {
-        "Conservative": (0.0, 0.4),
-        "Income": (0.3, 0.6),
-        "Balanced": (0.4, 0.7),
-        "Aggressive": (0.6, 1.0),
+    cap_map = {
+        "CAP_LT30K": 1,
+        "CAP_30K_80K": 2,
+        "CAP_80K_300K": 3,
+        "CAP_GT300K": 4
     }
-    prof_low, prof_high = PROFIT_RANGES.get(risk.replace("Predicted_", ""), (0.4, 0.7))
-    prof_center = (prof_low + prof_high) / 2.0
 
-    # 4. Merge data sources
-    merged = asset_df[["ISIN", "assetCategory"]].copy()
-    merged = merged.merge(limit_prices_df[["ISIN", "profitability"]], on="ISIN", how="left")
-    median_prof = merged["profitability"].median()
-    merged["profitability"] = merged["profitability"].fillna(median_prof)
+    # Get latest record per customer
+    customer_df_sorted = customer_df.sort_values("timestamp").drop_duplicates("customerID", keep="last")
+    user_info = customer_df_sorted[customer_df_sorted["customerID"] == customer_id]
 
-    # 5. Compute scores
-    merged["cat_score"] = merged["assetCategory"].apply(
-        lambda cat: 1.0 if cat in preferred_cats else 0.5
-    )
+    if user_info.empty:
+        return pd.Series(0.5, index=asset_df["ISIN"])  # fallback if no info
 
-    merged["prof_score"] = merged["profitability"].apply(
-        lambda p: 1 - min(abs(p - prof_center) / prof_center, 1)
-    )
+    risk = normalize_label(user_info["riskLevel"].values[0])
+    cap = normalize_label(user_info["investmentCapacity"].values[0])
 
-    merged["demo_score"] = alpha * merged["cat_score"] + (1 - alpha) * merged["prof_score"]
+    # If values are missing, return neutral scores
+    if risk not in risk_map or cap not in cap_map:
+        return pd.Series(0.5, index=asset_df["ISIN"])
 
-    return pd.Series(merged["demo_score"].values, index=merged["ISIN"])
+    user_vector = np.array([risk_map[risk], cap_map[cap]])
+
+    # Create average demographic vector for each assetCategory
+    asset_scores = []
+    for cat in asset_df["assetCategory"].unique():
+        assets_in_cat = asset_df[asset_df["assetCategory"] == cat]
+        customers = customer_df[customer_df["customerID"].isin(assets_in_cat["ISIN"])]  # unlikely match, so skip
+        # Instead of that, assume each category is associated with all customers
+        demographics = customer_df.copy()
+        demographics["riskLevel"] = demographics["riskLevel"].apply(normalize_label)
+        demographics["investmentCapacity"] = demographics["investmentCapacity"].apply(normalize_label)
+        demographics = demographics.dropna(subset=["riskLevel", "investmentCapacity"])
+        demographics = demographics[
+            demographics["riskLevel"].isin(risk_map) & demographics["investmentCapacity"].isin(cap_map)
+        ]
+
+        if demographics.empty:
+            avg_vector = np.array([2.5, 2.5])  # neutral default
+        else:
+            avg_vector = np.array([
+                demographics["riskLevel"].map(risk_map).mean(),
+                demographics["investmentCapacity"].map(cap_map).mean()
+            ])
+
+        # Inverse distance = similarity
+        sim = 1 - np.linalg.norm(user_vector - avg_vector) / np.linalg.norm([3, 3])  # normalize distance
+        asset_scores.append((cat, sim))
+
+    category_sim_map = dict(asset_scores)
+
+    # Assign each asset a score based on its category
+    scores = asset_df["assetCategory"].map(category_sim_map).fillna(0.5)
+    return pd.Series(scores.values, index=asset_df["ISIN"])
 
 ########################################
 # 5. HYBRID RECOMMENDATION COMBINING THE THREE COMPONENTS
@@ -198,7 +210,7 @@ def hybrid_recommendation(customer_id, rating_matrix, pred_df, rating_df, asset_
     content_scores = content_based_scores(customer_id, rating_df, asset_df, limit_prices_df)
     
     # 3. Demographic-based Scores
-    demo_scores = demographic_score(customer_id, customer_df, asset_df, limit_prices_df)
+    demo_scores = demographic_score(customer_id, customer_df, asset_df)
     
     # Normalize each score component to [0,1]
     cf_norm = normalize_scores(cf_scores)
