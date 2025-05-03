@@ -5,7 +5,7 @@
 The asset recommender leverages a **hybrid recommendation pipeline** that integrates:
 - **Collaborative Filtering (CF):** Uses customers' past buy transactions.
 - **Content-Based Filtering (CB):** Enriches asset features with metadata and profitability data.
-- **Enhanced Demographic & Questionnaire-Based Scoring:** Incorporates customer risk profiles, demographics, and responses from a detailed investment questionnaire.
+- **Demographic Based Scoring:** Incorporates customer risk profiles and demographics.
 
 A **Streamlit** frontend is provided to allow user interaction and parameter tuning.
 
@@ -30,7 +30,7 @@ The dataset includes:
 - Detailed financial product metadata
 - Historical transaction logs
 - Time-series pricing and profitability data
-- MiFID-aligned questionnaire structure for risk profiling
+- MiFID-aligned  structure for risk profiling
 
 ---
 
@@ -53,10 +53,6 @@ The dataset includes:
    - File: `limit_prices.csv`
    - Details: Contains profitability data (ROI), first/last dates, and extreme values for every asset. This info is used to derive asset performance metrics.
 
-5. **Questionnaires**
-   - File (or integrated fields): `questionnaire_responses.csv`
-   - Details: Contains detailed responses to demographic, investment, and risk tolerance questions. This is used to compute a composite questionnaire risk score.
-
 ---
 
 ## System Components
@@ -73,8 +69,8 @@ The dataset includes:
 - **Asset Feature Enrichment:**  
   Merge asset metadata with profitability (from limit prices) and perform one-hot encoding on categorical fields (e.g., assetCategory and assetSubCategory).
 
-- **Questionnaire Data Processing:**  
-  Map questionnaire answers (using defined answer-to-score mappings) into numerical features that describe the customer’s risk tolerance and investment preferences.
+- **Data Processing:**  
+  Map  answers (using defined answer-to-score mappings) into numerical features that describe the customer’s risk tolerance and investment preferences.
 
 ---
 
@@ -92,19 +88,18 @@ The dataset includes:
   - Compute cosine similarity between the customer profile and asset feature vectors.
   _Output:_ Content-based similarity scores for assets.
 
-#### C. Demographic & Questionnaire-Based Scoring
-- **Enhanced Demographic Matching:**  
+#### C. Demographic Based Scoring
+- ** Demographic Matching:**  
   - Use customer metadata (risk level, investment capacity) to target suitable asset classes.
-  - Combine with the computed questionnaire risk score (from questions on age, investment knowledge, risk appetite, etc.) to generate a refined risk match score.
-  _Output:_ Enhanced demographic scores reflecting the closeness of asset risk profiles to the customer’s risk tolerance.
+  _Output:_ Demographic scores reflecting the closeness of asset risk profiles to the customer’s risk tolerance.
 
 #### D. Hybrid Scoring
 - **Weighted Combination:**  
-  Normalize the scores from CF, CB, and Demographic/Questionnaire components (typically to a 0–1 range).
+  Normalize the scores from CF, CB, and Demographic components (typically to a 0–1 range).
   Use a weighted average to combine:
   - CF Score
   - Content-Based Score
-  - Enhanced Demographic/Questionnaire Score  
+  - Enhanced Demographic/ Score  
   _Output:_ A final composite score per asset.
 
 #### E. Recommendation Generation
@@ -118,12 +113,12 @@ The dataset includes:
 ### 3. System Integration & Frontend
 
 - **Streamlit Frontend:**  
-  - Provides an interactive UI for selecting a customer, adjusting component weights (CF, CB, Demographic/Questionnaire), and setting the Top-N recommendations.
+  - Provides an interactive UI for selecting a customer, adjusting component weights (CF, CB, Demographic), and setting the Top-N recommendations.
   - Displays the recommended asset list along with additional asset details.
 
 - **Deployment Considerations:**
   - The solution runs as a self-contained Python script (`app.py`).
-  - Dependencies include: `pandas`, `numpy`, `scikit-learn`, `streamlit`.
+  - Dependencies include: `pandas`, `numpy`, `scikit-learn`, `scipy`, `streamlit`.
   - Deployed locally or on a cloud server supporting Streamlit deployments.
 
 ---
@@ -136,17 +131,15 @@ graph LR
     B[Asset Information]
     C[Transactions]
     D[Limit Prices]
-    E[Questionnaire Responses]
     
     A -->|Preprocessing| F(Customer Profile)
     B -->|Merge & Encode| G(Asset Features)
     C -->|Filter & Aggregate| H(Rating Matrix)
     D -->|Merge with B| G
-    E -->|Compute Risk Score| I(Questionnaire Risk Score)
     
     H -->|Matrix Factorization| J(Collaborative Filtering Scores)
     G -->|Cosine Similarity| K(Content-Based Scores)
-    F & I -->|Enhanced Demographics| L(Enhanced Demographic Scores)
+    F -->| Demographics| L(Demographic Scores)
     
     J --> M[Score Normalization]
     K --> M
