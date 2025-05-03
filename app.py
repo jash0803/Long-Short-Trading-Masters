@@ -103,49 +103,71 @@ def content_based_scores(customer_id, rating_df, asset_df, limit_prices_df):
 ########################################
 # 4. DEMOGRAPHIC-BASED COMPONENT
 ########################################
-def demographic_score(customer_id, customer_df, asset_df, limit_prices_df):
+def demographic_score(customer_id, customer_df, asset_df, limit_prices_df, alpha=0.5):
     """
-    A more advanced demographic matching:
-      - Uses customer's riskLevel and investmentCapacity.
-      - Incorporates a simplified risk-return tradeoff using asset profitability.
-    The mapping below is illustrative: aggressive or premium customers might favor assets with higher
-    profitability (though with higher volatility), whereas conservative customers may prefer lower profitability assets.
+    Computes a demographic score for each asset based on:
+      - match between customer's risk level and asset category
+      - how close asset's profitability is to the ideal range for that risk level
+
+    Args:
+        customer_id (str): ID of the customer
+        customer_df (DataFrame): customer information
+        asset_df (DataFrame): asset metadata
+        limit_prices_df (DataFrame): asset profitabilities
+        alpha (float): weight between category match and profitability match
+
+    Returns:
+        pd.Series: scores indexed by ISIN
     """
-    # Risk mapping: assign a target profitability range based on risk level.
-    risk_map = {
-        "Conservative": (0, 0.4),
-        "Predicted_Conservative": (0, 0.4),
+
+    # 1. Get customer's latest risk level
+    cust = customer_df[customer_df.customerID == customer_id]
+    if cust.empty:
+        risk = "Balanced"
+    else:
+        risk = cust.sort_values("timestamp", ascending=True).iloc[-1]["riskLevel"]
+
+    # 2. Define preferred asset categories for each risk type
+    RISK_CATEGORY_PREF = {
+        "Conservative": ["Bond", "Money Market"],
+        "Predicted_Conservative": ["Bond", "Money Market"],
+        "Income": ["Bond", "Balanced"],
+        "Predicted_Income": ["Bond", "Balanced"],
+        "Balanced": ["Balanced", "Equity"],
+        "Predicted_Balanced": ["Balanced", "Equity"],
+        "Aggressive": ["Equity"],
+        "Predicted_Aggressive": ["Equity"],
+    }
+    preferred_cats = RISK_CATEGORY_PREF.get(risk, ["Balanced", "Equity"])
+
+    # 3. Define profitability range for each risk level
+    PROFIT_RANGES = {
+        "Conservative": (0.0, 0.4),
         "Income": (0.3, 0.6),
         "Balanced": (0.4, 0.7),
         "Aggressive": (0.6, 1.0),
-        "Predicted_Income": (0.3, 0.6),
-        "Predicted_Balanced": (0.4, 0.7),
-        "Predicted_Aggressive": (0.6, 1.0)
     }
-    
-    cust_info = customer_df[customer_df['customerID'] == customer_id]
-    if cust_info.empty:
-        risk = "Balanced"
-    else:
-        risk = cust_info.iloc[-1]['riskLevel']  # assume most recent record
-    
-    # Default target profitability range
-    target_range = risk_map.get(risk, (0.4, 0.7))
-    
-    # Merge asset info with profitability
-    asset_demo = asset_df[['ISIN', 'assetCategory', 'assetSubCategory']].copy()
-    asset_demo = asset_demo.merge(limit_prices_df[['ISIN', 'profitability']], on='ISIN', how='left')
-    asset_demo['profitability'] = asset_demo['profitability'].fillna(asset_demo['profitability'].median())
-    
-    # Score assets higher if their profitability is close to the center of target_range.
-    target_center = (target_range[0] + target_range[1]) / 2
-    def score_profit(prof):
-        # A simple inverse distance score normalized to [0,1]
-        return 1 - min(abs(prof - target_center) / (target_center), 1)
-    
-    asset_demo['demo_score'] = asset_demo['profitability'].apply(score_profit)
-    demo_score = pd.Series(asset_demo['demo_score'].values, index=asset_demo['ISIN'])
-    return demo_score
+    prof_low, prof_high = PROFIT_RANGES.get(risk.replace("Predicted_", ""), (0.4, 0.7))
+    prof_center = (prof_low + prof_high) / 2.0
+
+    # 4. Merge data sources
+    merged = asset_df[["ISIN", "assetCategory"]].copy()
+    merged = merged.merge(limit_prices_df[["ISIN", "profitability"]], on="ISIN", how="left")
+    median_prof = merged["profitability"].median()
+    merged["profitability"] = merged["profitability"].fillna(median_prof)
+
+    # 5. Compute scores
+    merged["cat_score"] = merged["assetCategory"].apply(
+        lambda cat: 1.0 if cat in preferred_cats else 0.5
+    )
+
+    merged["prof_score"] = merged["profitability"].apply(
+        lambda p: 1 - min(abs(p - prof_center) / prof_center, 1)
+    )
+
+    merged["demo_score"] = alpha * merged["cat_score"] + (1 - alpha) * merged["prof_score"]
+
+    return pd.Series(merged["demo_score"].values, index=merged["ISIN"])
 
 ########################################
 # 5. HYBRID RECOMMENDATION COMBINING THE THREE COMPONENTS
@@ -280,6 +302,6 @@ def main():
             st.write(f"Precision@{N}: **{precision:.4f}**, Recall@{N}: **{recall:.4f}**")
         else:
             st.write("No Precision/Recall computed")
-            
+
 if __name__ == '__main__':
     main()
