@@ -4,7 +4,7 @@
 
 The asset recommender leverages a **hybrid recommendation pipeline** that integrates:
 - **Collaborative Filtering (CF):** Uses customers' past buy transactions.
-- **Content-Based Filtering (CB):** Enriches asset features with metadata and profitability data.
+- **Content-Based Filtering (CB):** Uses asset features and profitability data.
 - **Demographic Based Scoring:** Incorporates customer risk profiles and demographics.
 
 A **Streamlit** frontend is provided to allow user interaction and parameter tuning.
@@ -30,7 +30,7 @@ The dataset includes:
 - Detailed financial product metadata
 - Historical transaction logs
 - Time-series pricing and profitability data
-- MiFID-aligned  structure for risk profiling
+- MiFID-aligned structure for risk profiling
 
 ---
 
@@ -51,7 +51,7 @@ The dataset includes:
 
 4. **Limit Prices**
    - File: `limit_prices.csv`
-   - Details: Contains profitability data (ROI), first/last dates, and extreme values for every asset. This info is used to derive asset performance metrics.
+   - Details: Contains profitability data (ROI), first/last dates, and extreme values for every asset.
 
 ---
 
@@ -64,13 +64,12 @@ The dataset includes:
 
 - **Preprocessing Transactions:**  
   - Filter to include only "Buy" transactions.
-  - Aggregate the transactions (e.g., count or sum of buy events) to build a **customer × asset rating matrix**.
+  - Sort by timestamp for proper train-test splitting.
+  - Build a customer × asset rating matrix using transaction counts.
 
-- **Asset Feature Enrichment:**  
-  Merge asset metadata with profitability (from limit prices) and perform one-hot encoding on categorical fields (e.g., assetCategory and assetSubCategory).
-
-- **Data Processing:**  
-  Map  answers (using defined answer-to-score mappings) into numerical features that describe the customer’s risk tolerance and investment preferences.
+- **Train-Test Split:**  
+  - Use leave-one-out split for evaluation.
+  - For each user, hold out their last transaction as test data.
 
 ---
 
@@ -78,48 +77,75 @@ The dataset includes:
 
 #### A. Collaborative Filtering
 - **Matrix Factorization:**  
-  Use Truncated SVD on the rating matrix to compute latent factors (user and asset embeddings).  
-  _Output:_ Predicted ratings for customer-asset pairs.
+  - Use Truncated SVD with 5 components.
+  - Compute latent factors for users and assets.
+  - _Output:_ Predicted ratings for customer-asset pairs.
 
 #### B. Content-Based Filtering
 - **Asset Profile Building:**  
-  - Construct asset feature vectors from categorical fields and normalized profitability.
-  - Build customer profiles by averaging feature vectors of previously purchased assets.
-  - Compute cosine similarity between the customer profile and asset feature vectors.
-  _Output:_ Content-based similarity scores for assets.
+  - One-hot encode categorical features (category, subcategory, sector, industry, market).
+  - Include profitability as a numerical feature.
+  - Handle missing values with appropriate defaults.
+  - _Output:_ Feature matrix for all assets.
+
+- **User Profile & Scoring:**  
+  - Build user profile as mean of their purchased assets' features.
+  - Compute cosine similarity between user profile and all assets.
+  - Handle cold-start with neutral scores.
+  - _Output:_ Content-based similarity scores.
 
 #### C. Demographic Based Scoring
-- ** Demographic Matching:**  
-  - Use customer metadata (risk level, investment capacity) to target suitable asset classes.
-  _Output:_ Demographic scores reflecting the closeness of asset risk profiles to the customer’s risk tolerance.
+- **Risk Profile Matching:**  
+  - Map customer risk levels and investment capacity to numeric scores.
+  - Compute weighted similarity between user demographics and asset categories.
+  - _Output:_ Demographic scores for assets.
 
 #### D. Hybrid Scoring
-- **Weighted Combination:**  
-  Normalize the scores from CF, CB, and Demographic components (typically to a 0–1 range).
-  Use a weighted average to combine:
-  - CF Score
-  - Content-Based Score
-  - Enhanced Demographic/ Score  
-  _Output:_ A final composite score per asset.
+- **Component Weights:**  
+  - Allow dynamic adjustment of weights for each component.
+  - Weights can be set independently (no sum constraint).
+  - Default weights: CF (0.4), CB (0.3), Demographic (0.3).
+
+- **Score Combination:**  
+  - Normalize each component's scores to [0,1] range.
+  - Apply weighted combination.
+  - _Output:_ Final composite scores.
 
 #### E. Recommendation Generation
 - **Filtering and Ranking:**  
-  Remove assets the customer already purchased.
-  Rank the remaining assets by the composite score.
-  Select the Top-N assets to recommend based on user-specified parameters.
+  - Remove previously purchased assets.
+  - Rank remaining assets by composite score.
+  - Select Top-N recommendations.
 
 ---
 
-### 3. System Integration & Frontend
+### 3. Evaluation & Frontend
 
-- **Streamlit Frontend:**  
-  - Provides an interactive UI for selecting a customer, adjusting component weights (CF, CB, Demographic), and setting the Top-N recommendations.
-  - Displays the recommended asset list along with additional asset details.
+#### A. Evaluation Metrics
+- **RMSE:**  
+  - Compute on held-out test transactions.
+  - Handle edge cases and insufficient data.
 
-- **Deployment Considerations:**
-  - The solution runs as a self-contained Python script (`app.py`).
-  - Dependencies include: `pandas`, `numpy`, `scikit-learn`, `scipy`, `streamlit`.
-  - Deployed locally or on a cloud server supporting Streamlit deployments.
+- **Precision@N & Recall@N:**  
+  - Evaluate recommendation quality at specified N.
+  - Robust handling of edge cases and errors.
+
+#### B. Streamlit Frontend
+- **User Interface:**  
+  - Customer selection dropdown.
+  - Component weight sliders.
+  - Top-N parameter setting.
+  - Evaluation metrics toggle.
+
+- **Risk Assessment:**  
+  - Interactive questionnaire for risk profiling.
+  - Questions on risk appetite, investment expectations.
+  - Automatic profile updates.
+
+- **Recommendation Display:**  
+  - Detailed asset information.
+  - Formatted scores and metrics.
+  - Profitability and price information.
 
 ---
 
@@ -133,19 +159,21 @@ graph LR
     D[Limit Prices]
     
     A -->|Preprocessing| F(Customer Profile)
-    B -->|Merge & Encode| G(Asset Features)
+    B -->|Feature Encoding| G(Asset Features)
     C -->|Filter & Aggregate| H(Rating Matrix)
     D -->|Merge with B| G
     
-    H -->|Matrix Factorization| J(Collaborative Filtering Scores)
-    G -->|Cosine Similarity| K(Content-Based Scores)
-    F -->| Demographics| L(Demographic Scores)
+    H -->|SVD| J(CF Scores)
+    G -->|Cosine Similarity| K(CB Scores)
+    F -->|Risk Matching| L(Demographic Scores)
     
     J --> M[Score Normalization]
     K --> M
     L --> M
     
-    M -->|Weighted Hybrid Combination| N(Final Composite Scores)
+    M -->|Weighted Combination| N(Final Scores)
     N -->|Rank & Filter| O(Top-N Recommendations)
     
-    O --> P[Streamlit Frontend]
+    O --> P[Streamlit UI]
+    P -->|Questionnaire| Q[Risk Assessment]
+    Q -->|Update| F
