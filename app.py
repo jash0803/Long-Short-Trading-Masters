@@ -374,6 +374,55 @@ def update_customer_profile(customer_id, risk_level, investment_capacity, custom
     updated_df = pd.concat([customer_df, new_row], ignore_index=True)
     return updated_df
 
+def compute_roi_at_k(recommendations, limit_prices_df, k=10):
+    """
+    Compute Return on Investment (ROI) for top-k recommendations.
+    ROI is calculated using the profitability metric from limit_prices_df.
+    """
+    if recommendations is None or len(recommendations) == 0:
+        return None
+        
+    # Get top-k recommendations
+    top_k = recommendations.head(k)
+    
+    # Get profitability for recommended assets
+    roi_values = limit_prices_df.set_index('ISIN')['profitability'].loc[top_k.index]
+    
+    # Calculate average ROI
+    avg_roi = roi_values.mean()
+    
+    return avg_roi
+
+def compute_ndcg_at_k(recommendations, test_df, k=10):
+    """
+    Compute Normalized Discounted Cumulative Gain (nDCG) at k.
+    Uses the test set transactions as relevance indicators.
+    """
+    if recommendations is None or len(recommendations) == 0:
+        return None
+        
+    # Get top-k recommendations
+    top_k = recommendations.head(k)
+    
+    # Create relevance list (1 if item is in test set, 0 otherwise)
+    relevance = [1 if isin in test_df['ISIN'].values else 0 for isin in top_k.index]
+    
+    # Calculate DCG
+    dcg = 0
+    for i, rel in enumerate(relevance):
+        dcg += (2 ** rel - 1) / np.log2(i + 2)  # i+2 because log2(1) = 0
+    
+    # Calculate IDCG (ideal case: all relevant items are at the top)
+    idcg = 0
+    num_relevant = sum(relevance)
+    for i in range(min(num_relevant, k)):
+        idcg += 1 / np.log2(i + 2)
+    
+    # Calculate nDCG
+    ndcg = dcg / idcg if idcg > 0 else 0
+    
+    return ndcg
+
 #############################
 # 7. STREAMLIT APP
 #############################
@@ -396,7 +445,7 @@ def main():
     customer_list = list(rating_matrix.index)
     customer_id_input = st.sidebar.selectbox("Customer ID", customer_list)
 
-    N = st.sidebar.number_input("Top N", min_value=1, value=5)
+    N = st.sidebar.number_input("Top N", min_value=1, max_value=20, value=10)  # Changed default to 10
 
     eval_mode = st.sidebar.checkbox("Run Evaluation Metrics")
     st.sidebar.subheader("Component Weights")
@@ -560,6 +609,16 @@ def main():
             'Profitability': '{:.2%}',
             'Current Price': '€{:.2f}'
         }))
+        
+        # Calculate and display ROI@10 and nDCG@10
+        roi = compute_roi_at_k(recs, limit_prices_df, k=10)
+        ndcg = compute_ndcg_at_k(recs, test_df, k=10)
+        
+        st.write("### Recommendation Quality Metrics")
+        if roi is not None:
+            st.write(f"ROI@10: **{roi:.2%}**")
+        if ndcg is not None:
+            st.write(f"nDCG@10: **{ndcg:.4f}**")
     
     if eval_mode:
         st.write("### Evaluation Metrics (Leave-One-Out)")
