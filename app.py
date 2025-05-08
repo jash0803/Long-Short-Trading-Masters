@@ -430,6 +430,11 @@ def main():
     st.title("FAR-Trans Asset Recommender")
     st.write("An improved hybrid recommendation system leveraging the FAR-Trans dataset, combining collaborative filtering, enriched content-based filtering, and demographic matching.")
     
+    # Display author information
+    st.markdown("---")
+    st.markdown("Created by: [Jash Shah](https://www.linkedin.com/in/jashshah0803/)")
+    st.markdown("---")
+    
     # Load & preprocess
     asset_df, customer_df, transactions_df, limit_prices_df = load_data()
     buys = preprocess_data(transactions_df)
